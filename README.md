@@ -8,7 +8,7 @@
 I’m a **vibe coder**—a wizard-in-training learning the arcane language of code.  
 Each line is a spell, each project a ritual, blending philosophy, anthropology, and foraging wisdom with the rhythm of jazz, techno, and blues.  
 
-Like the “Resume” man from String Cheese Incident, I’ve got [50 years of experience in a 45-year-old soul](https://youtu.be/JP-MjPcw74E)—well, 50 and counting—and I’m casting code into a sci-fi reality where AI is my co-pilot.  
+Like the “Resume” man from String Cheese Incident, I’ve got [50 years of experience finally equals my age](https://youtu.be/JP-MjPcw74E)—50 and counting—and I’m casting code into a sci-fi reality where AI is my co-pilot.  
 
 - 💻 **Python** & **JavaScript** as spells of my craft  
 - 🔮 **AI** as a mystical partner reshaping creativity & reality  
