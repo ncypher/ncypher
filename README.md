@@ -14,7 +14,8 @@ Unlike the “Resume” man from String Cheese Incident, I’ve got [50 years of
 - 🔮 **AI** as a mystical partner reshaping creativity & reality  
 - 🌳 Rooted in **philosophy, psychology, anthropology**, and nature’s signals  
 - 🍄 Forager of wild plants, mushrooms, and hidden patterns of the universe  
-- ⚡ Corporate IT by day, apprentice of creative code sorcery by night  
+- ⚡ Corporate IT by day, apprentice of creative code sorcery by night
+- 🌿 **4 years in Michigan’s recreational cannabis industry**, where I worked in IT and developed apps for one of the state’s largest testing & compliance labs   
 
 ---
 
