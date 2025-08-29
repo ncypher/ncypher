@@ -1,4 +1,4 @@
-# 🌌 Greetings, I’m Tom — Wizard Student of Code  
+# 🌌 Greetings, I’m Tom — Wizard Student, Conjurer of Code  
 
 [![Arcane Python](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1100&duration=2500&color=00FFD1&vCenter=true&width=800&lines=%3E%3E%3E+from+magic+import+spell;>>>+import+ai+as+familiar;sigil+%3D+spell(%22vibe%22%2C+with_=%22Python%22%2C+and_=%22JavaScript%22);while+flow%3A+familiar.conjure('idea');debug('philosophy');ship('art');print(%22%E2%9C%A8+incantation+complete+%22))](https://git.io/typing-svg)
 
