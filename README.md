@@ -57,7 +57,8 @@ Coding is my ritual—jazz improvisation, techno pulse, and blues wail translate
 Let’s cast something epic at the intersection of code, AI, and the wild:  
 - 🌐 **GitHub**: [ncypher](https://github.com/ncypher)  
 - 🌀 Open to collabs, big ideas, or geeking out over jazz, techno, or mushrooms  
-
+- **X**: [https://x.com/TomHarwood75](https://x.com/TomHarwood75)
+- **Facebook**: [https://www.facebook.com/harwood.thomas](https://www.facebook.com/harwood.thomas)
 ---
 
 ## ⚡ Fun Fact  
