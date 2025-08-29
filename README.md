@@ -33,7 +33,7 @@ I see APIs as shimmering portals in the multiverse—gateways that let different
 Like an **interdimensional counselor**, I negotiate between these worlds, translating their tongues, calming their conflicts, and weaving them into a living code ecosystem.  
 
 - 🌐 Building bridges where silos once stood  
-- 🔗 Binding **Python scripts**, **Quickbase apps**, **QuickBooks**, **Tsheets**, **ServiceNow**, and other **cloud APIs** into one spell circle  
+- 🔗 Binding **Python scripts**, **Quickbase apps**, **QuickBooks**, **Tsheets**, **ServiceNow**, **FastField, and other **cloud APIs** into one spell circle  
 - 💫 Making the invisible connections flow like magic energy between dimensions  
 
 
