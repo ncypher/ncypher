@@ -1,51 +1,88 @@
-<!-- Pac-Man footer animation (works on GitHub README) -->
-<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg">
+<!-- Pac-Man eats dots (GitHub-safe; explicit circles w/ offsets) -->
+<svg width="720" height="140" viewBox="0 0 720 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background (GitHub dark mode) -->
   <rect width="100%" height="100%" fill="#0d1117"/>
-  <!-- Dots -->
-  <g id="dots">
-    <!-- 18 dots across -->
-    <g fill="#00ffd1">
-      <circle cx="120" cy="60" r="4"/>
-      <circle cx="160" cy="60" r="4"/>
-      <circle cx="200" cy="60" r="4"/>
-      <circle cx="240" cy="60" r="4"/>
-      <circle cx="280" cy="60" r="4"/>
-      <circle cx="320" cy="60" r="4"/>
-      <circle cx="360" cy="60" r="4"/>
-      <circle cx="400" cy="60" r="4"/>
-      <circle cx="440" cy="60" r="4"/>
-      <circle cx="480" cy="60" r="4"/>
-      <circle cx="520" cy="60" r="4"/>
-      <circle cx="560" cy="60" r="4"/>
-      <circle cx="600" cy="60" r="4"/>
-      <circle cx="640" cy="60" r="4"/>
-      <circle cx="680" cy="60" r="4"/>
-    </g>
-    <!-- dots move left to right behind pac-man -->
-    <animateTransform attributeName="transform" type="translate"
-      values="0 0; -560 0" dur="6s" repeatCount="indefinite"/>
-  </g>
 
-  <!-- Pac-Man body -->
-  <g transform="translate(90,60)">
-    <!-- Mouth clipping -->
-    <clipPath id="mouth">
-      <path id="m" d="M0,0 L60,-34 A68,68 0 1,1 60,34 Z">
-        <!-- open/close the mouth -->
-        <animate attributeName="d" dur="0.45s" repeatCount="indefinite"
-          values="
-            M0,0 L60,-34 A68,68 0 1,1 60,34 Z;
-            M0,0 L60,-2 A68,68 0 1,1 60,2 Z;
-            M0,0 L60,-34 A68,68 0 1,1 60,34 Z"/>
-      </path>
-    </clipPath>
-
-    <!-- Pac-Man circle masked by animated mouth -->
-    <circle r="68" fill="#ffd700" clip-path="url(#mouth)"/>
-    <!-- Eye -->
+  <!-- ===== PAC-MAN (centered at 360,70; mouth apex ~ +60 => x≈420) ===== -->
+  <g transform="translate(360,70)">
+    <circle r="68" fill="#ffd700"/>
     <circle cx="14" cy="-26" r="6" fill="#0d1117"/>
-    <!-- Move the whole pac-man across -->
-    <animateTransform attributeName="transform" type="translate"
-      values="90,60; 720,60" dur="6s" repeatCount="indefinite"/>
+    <path fill="#0d1117">
+      <animate attributeName="d" dur="0.45s" repeatCount="indefinite"
+        values="
+          M0,0 L60,-34 A68,68 0 1,1 60,34 Z;
+          M0,0 L60,-4  A68,68 0 1,1 60,4  Z;
+          M0,0 L60,-34 A68,68 0 1,1 60,34 Z"/>
+    </path>
   </g>
-</svg>
+
+  <!-- ===== DOT STREAM (right -> left; chomp at t≈0.425) ===== -->
+  <!-- Motion is 760 -> -40 over 6s (800px). solve 420 = 760 - 800*t => t=0.425 -->
+  <g fill="#00ffd1">
+    <!-- one dot every 0.4s; negative begins so stream is already flowing -->
+    <!-- copy this block 15x with begin offsets 0,-0.4,-0.8,...,-5.6 -->
+    <!-- keyTimes collapse radius right at the mouth -->
+    <!-- dot 0 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="0s"/>
+    </circle>
+    <!-- dot 1 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-0.4s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-0.4s"/>
+    </circle>
+    <!-- dot 2 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-0.8s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-0.8s"/>
+    </circle>
+    <!-- dot 3 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-1.2s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-1.2s"/>
+    </circle>
+    <!-- dot 4 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-1.6s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-1.6s"/>
+    </circle>
+    <!-- dot 5 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-2.0s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-2.0s"/>
+    </circle>
+    <!-- dot 6 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-2.4s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-2.4s"/>
+    </circle>
+    <!-- dot 7 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-2.8s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-2.8s"/>
+    </circle>
+    <!-- dot 8 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-3.2s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-3.2s"/>
+    </circle>
+    <!-- dot 9 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-3.6s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-3.6s"/>
+    </circle>
+    <!-- dot 10 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-4.0s"/>
+      <animate attributeNam
