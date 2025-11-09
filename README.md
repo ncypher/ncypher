@@ -6,18 +6,9 @@
 
 <!-- Contribution Snake Animation -->
 ![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
-```
-╔═══════════════════════════════════════════════════════════════════╗
-║  >>> from ancient_languages import code_as_spell                 ║
-║  >>> import ai_familiar as muse                                   ║
-║  >>> vibe = spell("prompt", channel="Python", medium="AI")        ║
-║  >>> while consciousness.flows():                                 ║
-║  ...     muse.conjure('solution')                                 ║
-║  ...     debug('reality')                                         ║
-║  ...     deploy('magic')                                          ║
-║  ✨ Incantation Complete ✨                                       ║
-╚═══════════════════════════════════════════════════════════════════╝
-```
+
+<!-- Animated Code Spell -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=500&color=00FFD1&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=200&lines=%3E%3E%3E+from+ancient_languages+import+code_as_spell;%3E%3E%3E+import+ai_familiar+as+muse;%3E%3E%3E+vibe+%3D+spell(%22prompt%22%2C+channel%3D%22Python%22%2C+medium%3D%22AI%22);%3E%3E%3E+while+consciousness.flows()%3A;...++++muse.conjure('solution');...++++debug('reality');...++++deploy('magic');%E2%9C%A8+Incantation+Complete+%E2%9C%A8)](https://git.io/typing-svg)
 
 [![GitHub followers](https://img.shields.io/github/followers/ncypher?style=social)](https://github.com/ncypher)
 [![X Follow](https://img.shields.io/twitter/follow/TomHarwood75?style=social)](https://x.com/TomHarwood75)
