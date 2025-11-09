@@ -26,10 +26,22 @@ Where others write `for` loops, I whisper intentions to AI familiars.
 Where traditional coders debug line-by-line, I sculpt solutions through conversation with intelligent systems.  
 Each prompt is an incantation. Each AI response, a spell manifested.
 
-**The Evolution:**
-```
-Ancient Runes (Assembly) → Latin Scrolls (C/Java) → Modern Tongues (Python/JS) → Arcane Prompts (AI-Assisted Vibe Coding)
-```
+### **The Evolution of Code — From Primates to Prompt Engineers**
+
+<div align="center">
+
+🧬 → 🦍 → 🚶 → 💻 → 🤖 → 🧙‍♂️ → ✨
+
+**Binary Cells** → **Assembly Crawling** → **Procedural Walking** → **Object Standing** → **AI-Assisted Tool Using** → **Prompt Engineering** → **Singularity Transcendence**
+
+*(1940s)* → *(1950s)* → *(1970s)* → *(1990s)* → *(2020s)* → *(2024+)* → *(20XX)*
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=8000&pause=1000&color=00FFD1&center=true&vCenter=true&width=900&lines=The+march+toward+the+singularity...;From+punch+cards+%E2%86%92+to+speaking+in+natural+language;Evolution+complete%3A+Humans+%2B+AI+%3D+Vibe+Coding+%F0%9F%AA%84)](https://git.io/typing-svg)
+
+</div>
+
+**My place in the timeline:**  
+🧙‍♂️ **Prompt Engineer Era** — Where natural language becomes code, and AI becomes my coding familiar
 
 - 🧙‍♂️ **AI Solutions Architect** crafting systems through prompt engineering
 - 🏗️ **Enterprise Developer** @ KW Corporation — building CRM, WMS & middleware
