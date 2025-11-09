@@ -1,0 +1,48 @@
+<svg width="720" height="140" viewBox="0 0 720 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <g font-family="monospace" font-size="16" fill="#00ffd1" opacity="0.85">
+    <!-- 36 columns of falling glyphs -->
+    <defs>
+      <symbol id="col">
+        <text x="0" y="0">01λΨφΔπΞ1010</text>
+      </symbol>
+    </defs>
+    <!-- generate columns -->
+    <g>
+      <!-- 18 columns -->
+      <g transform="translate(20,0)">
+        <use href="#col">
+          <animateTransform attributeName="transform" type="translate"
+            values="0,-140; 0,140" dur="3.6s" repeatCount="indefinite"/>
+        </use>
+      </g>
+      <g transform="translate(60,0)">
+        <use href="#col">
+          <animateTransform attributeName="transform" type="translate"
+            values="0,-140; 0,140" dur="3.2s" repeatCount="indefinite"/>
+        </use>
+      </g>
+      <g transform="translate(100,0)">
+        <use href="#col">
+          <animateTransform attributeName="transform" type="translate"
+            values="0,-140; 0,140" dur="4.0s" repeatCount="indefinite"/>
+        </use>
+      </g>
+      <!-- duplicate pattern across width -->
+      <g transform="translate(140,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.4s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(180,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.1s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(220,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.9s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(260,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.3s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(300,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.7s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(340,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.5s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(380,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.0s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(420,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.8s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(460,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.6s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(500,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.2s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(540,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.4s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(580,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.9s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(620,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.1s" repeatCount="indefinite"/></use></g>
+      <g transform="translate(660,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.7s" repeatCount="indefinite"/></use></g>
+    </g>
+  </g>
+</svg>
