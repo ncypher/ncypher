@@ -238,18 +238,18 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ncypher&color=00FFD1&style=for-the-badge)
 
-<!-- Local Pac-Man footer animation -->
+<!-- Optional alternative: Pacman (uncomment to use)
 <p align="center">
   <img src="./assets/pacman.svg" width="700" alt="Pac-Man Animation"/>
 </p>
 
 </div>
-
-
-<!-- Optional alternative: Matrix rain (uncomment to use)
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/matrix-rain/main/matrix.svg" width="700" alt="Matrix Code Rain"/>
-</p>
 -->
+
+<p align="center">
+  <img src="./assets/matrix.svg" width="700" alt="Pac-Man Animation"/>
+</p>
+
+
 
 </div>
