@@ -1,0 +1,51 @@
+<!-- Pac-Man footer animation (works on GitHub README) -->
+<svg width="720" height="120" viewBox="0 0 720 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <!-- Dots -->
+  <g id="dots">
+    <!-- 18 dots across -->
+    <g fill="#00ffd1">
+      <circle cx="120" cy="60" r="4"/>
+      <circle cx="160" cy="60" r="4"/>
+      <circle cx="200" cy="60" r="4"/>
+      <circle cx="240" cy="60" r="4"/>
+      <circle cx="280" cy="60" r="4"/>
+      <circle cx="320" cy="60" r="4"/>
+      <circle cx="360" cy="60" r="4"/>
+      <circle cx="400" cy="60" r="4"/>
+      <circle cx="440" cy="60" r="4"/>
+      <circle cx="480" cy="60" r="4"/>
+      <circle cx="520" cy="60" r="4"/>
+      <circle cx="560" cy="60" r="4"/>
+      <circle cx="600" cy="60" r="4"/>
+      <circle cx="640" cy="60" r="4"/>
+      <circle cx="680" cy="60" r="4"/>
+    </g>
+    <!-- dots move left to right behind pac-man -->
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; -560 0" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Pac-Man body -->
+  <g transform="translate(90,60)">
+    <!-- Mouth clipping -->
+    <clipPath id="mouth">
+      <path id="m" d="M0,0 L60,-34 A68,68 0 1,1 60,34 Z">
+        <!-- open/close the mouth -->
+        <animate attributeName="d" dur="0.45s" repeatCount="indefinite"
+          values="
+            M0,0 L60,-34 A68,68 0 1,1 60,34 Z;
+            M0,0 L60,-2 A68,68 0 1,1 60,2 Z;
+            M0,0 L60,-34 A68,68 0 1,1 60,34 Z"/>
+      </path>
+    </clipPath>
+
+    <!-- Pac-Man circle masked by animated mouth -->
+    <circle r="68" fill="#ffd700" clip-path="url(#mouth)"/>
+    <!-- Eye -->
+    <circle cx="14" cy="-26" r="6" fill="#0d1117"/>
+    <!-- Move the whole pac-man across -->
+    <animateTransform attributeName="transform" type="translate"
+      values="90,60; 720,60" dur="6s" repeatCount="indefinite"/>
+  </g>
+</svg>
