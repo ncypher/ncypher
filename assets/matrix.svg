@@ -1,48 +1,303 @@
+<!-- Matrix-style digital rain -->
 <svg width="720" height="140" viewBox="0 0 720 140" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="#0d1117"/>
-  <g font-family="monospace" font-size="16" fill="#00ffd1" opacity="0.85">
-    <!-- 36 columns of falling glyphs -->
-    <defs>
-      <symbol id="col">
-        <text x="0" y="0">01λΨφΔπΞ1010</text>
-      </symbol>
-    </defs>
-    <!-- generate columns -->
-    <g>
-      <!-- 18 columns -->
-      <g transform="translate(20,0)">
-        <use href="#col">
-          <animateTransform attributeName="transform" type="translate"
-            values="0,-140; 0,140" dur="3.6s" repeatCount="indefinite"/>
-        </use>
-      </g>
-      <g transform="translate(60,0)">
-        <use href="#col">
-          <animateTransform attributeName="transform" type="translate"
-            values="0,-140; 0,140" dur="3.2s" repeatCount="indefinite"/>
-        </use>
-      </g>
-      <g transform="translate(100,0)">
-        <use href="#col">
-          <animateTransform attributeName="transform" type="translate"
-            values="0,-140; 0,140" dur="4.0s" repeatCount="indefinite"/>
-        </use>
-      </g>
-      <!-- duplicate pattern across width -->
-      <g transform="translate(140,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.4s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(180,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.1s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(220,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.9s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(260,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.3s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(300,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.7s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(340,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.5s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(380,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.0s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(420,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.8s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(460,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.6s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(500,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.2s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(540,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.4s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(580,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.9s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(620,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.1s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(660,0)"><use href="#col"><animateTransform attributeName="transform" type="translate" values="0,-140; 0,140" dur="3.7s" repeatCount="indefinite"/></use></g>
+  
+  <!-- Gradient for fade effect -->
+  <defs>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffd1;stop-opacity:0.2"/>
+      <stop offset="70%" style="stop-color:#00ffd1;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#00ffd1;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <g font-family="monospace" font-size="14" fill="url(#fade)">
+    <!-- Column 1 -->
+    <g transform="translate(20,0)">
+      <text x="0" y="0">λ</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">1</text>
+      <text x="0" y="60">Ψ</text>
+      <text x="0" y="80">π</text>
+      <text x="0" y="100">1</text>
+      <text x="0" y="120">φ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="20,-140; 20,140" dur="3.6s" repeatCount="indefinite"/>
+    </g>
+    
+    <!-- Column 2 -->
+    <g transform="translate(50,0)">
+      <text x="0" y="0">1</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">Δ</text>
+      <text x="0" y="60">1</text>
+      <text x="0" y="80">0</text>
+      <text x="0" y="100">Ξ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="50,-140; 50,140" dur="4.2s" repeatCount="indefinite" begin="-0.5s"/>
+    </g>
+    
+    <!-- Column 3 -->
+    <g transform="translate(80,0)">
+      <text x="0" y="0">Ψ</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">λ</text>
+      <text x="0" y="60">0</text>
+      <text x="0" y="80">φ</text>
+      <text x="0" y="100">1</text>
+      <text x="0" y="120">Δ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="80,-140; 80,140" dur="3.0s" repeatCount="indefinite" begin="-1.2s"/>
+    </g>
+    
+    <!-- Column 4 -->
+    <g transform="translate(110,0)">
+      <text x="0" y="0">0</text>
+      <text x="0" y="20">π</text>
+      <text x="0" y="40">1</text>
+      <text x="0" y="60">0</text>
+      <text x="0" y="80">λ</text>
+      <text x="0" y="100">1</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="110,-140; 110,140" dur="3.8s" repeatCount="indefinite" begin="-0.8s"/>
+    </g>
+    
+    <!-- Column 5 -->
+    <g transform="translate(140,0)">
+      <text x="0" y="0">φ</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">Ξ</text>
+      <text x="0" y="60">0</text>
+      <text x="0" y="80">1</text>
+      <text x="0" y="100">Ψ</text>
+      <text x="0" y="120">0</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="140,-140; 140,140" dur="3.4s" repeatCount="indefinite" begin="-1.5s"/>
+    </g>
+    
+    <!-- Column 6 -->
+    <g transform="translate(170,0)">
+      <text x="0" y="0">1</text>
+      <text x="0" y="20">Δ</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">π</text>
+      <text x="0" y="80">1</text>
+      <text x="0" y="100">0</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="170,-140; 170,140" dur="4.0s" repeatCount="indefinite" begin="-0.3s"/>
+    </g>
+    
+    <!-- Column 7 -->
+    <g transform="translate(200,0)">
+      <text x="0" y="0">λ</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">1</text>
+      <text x="0" y="60">φ</text>
+      <text x="0" y="80">0</text>
+      <text x="0" y="100">Ψ</text>
+      <text x="0" y="120">1</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="200,-140; 200,140" dur="3.2s" repeatCount="indefinite" begin="-2.0s"/>
+    </g>
+    
+    <!-- Column 8 -->
+    <g transform="translate(230,0)">
+      <text x="0" y="0">Ξ</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">Δ</text>
+      <text x="0" y="80">1</text>
+      <text x="0" y="100">λ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="230,-140; 230,140" dur="3.9s" repeatCount="indefinite" begin="-1.1s"/>
+    </g>
+    
+    <!-- Column 9 -->
+    <g transform="translate(260,0)">
+      <text x="0" y="0">0</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">π</text>
+      <text x="0" y="60">0</text>
+      <text x="0" y="80">φ</text>
+      <text x="0" y="100">1</text>
+      <text x="0" y="120">0</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="260,-140; 260,140" dur="3.5s" repeatCount="indefinite" begin="-0.7s"/>
+    </g>
+    
+    <!-- Column 10 -->
+    <g transform="translate(290,0)">
+      <text x="0" y="0">Ψ</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">1</text>
+      <text x="0" y="60">Ξ</text>
+      <text x="0" y="80">0</text>
+      <text x="0" y="100">Δ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="290,-140; 290,140" dur="3.7s" repeatCount="indefinite" begin="-1.8s"/>
+    </g>
+    
+    <!-- Column 11 -->
+    <g transform="translate(320,0)">
+      <text x="0" y="0">1</text>
+      <text x="0" y="20">λ</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">1</text>
+      <text x="0" y="80">π</text>
+      <text x="0" y="100">0</text>
+      <text x="0" y="120">1</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="320,-140; 320,140" dur="3.3s" repeatCount="indefinite" begin="-0.4s"/>
+    </g>
+    
+    <!-- Column 12 -->
+    <g transform="translate(350,0)">
+      <text x="0" y="0">φ</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">Ψ</text>
+      <text x="0" y="80">1</text>
+      <text x="0" y="100">λ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="350,-140; 350,140" dur="4.1s" repeatCount="indefinite" begin="-1.3s"/>
+    </g>
+    
+    <!-- Column 13 -->
+    <g transform="translate(380,0)">
+      <text x="0" y="0">0</text>
+      <text x="0" y="20">Δ</text>
+      <text x="0" y="40">1</text>
+      <text x="0" y="60">0</text>
+      <text x="0" y="80">Ξ</text>
+      <text x="0" y="100">1</text>
+      <text x="0" y="120">0</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="380,-140; 380,140" dur="3.1s" repeatCount="indefinite" begin="-2.2s"/>
+    </g>
+    
+    <!-- Column 14 -->
+    <g transform="translate(410,0)">
+      <text x="0" y="0">π</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">1</text>
+      <text x="0" y="60">φ</text>
+      <text x="0" y="80">0</text>
+      <text x="0" y="100">1</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="410,-140; 410,140" dur="3.6s" repeatCount="indefinite" begin="-0.9s"/>
+    </g>
+    
+    <!-- Column 15 -->
+    <g transform="translate(440,0)">
+      <text x="0" y="0">1</text>
+      <text x="0" y="20">Ψ</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">λ</text>
+      <text x="0" y="80">1</text>
+      <text x="0" y="100">0</text>
+      <text x="0" y="120">Δ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="440,-140; 440,140" dur="3.8s" repeatCount="indefinite" begin="-1.6s"/>
+    </g>
+    
+    <!-- Column 16 -->
+    <g transform="translate(470,0)">
+      <text x="0" y="0">Ξ</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">π</text>
+      <text x="0" y="80">1</text>
+      <text x="0" y="100">φ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="470,-140; 470,140" dur="3.4s" repeatCount="indefinite" begin="-0.6s"/>
+    </g>
+    
+    <!-- Column 17 -->
+    <g transform="translate(500,0)">
+      <text x="0" y="0">0</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">λ</text>
+      <text x="0" y="60">0</text>
+      <text x="0" y="80">Ψ</text>
+      <text x="0" y="100">1</text>
+      <text x="0" y="120">0</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="500,-140; 500,140" dur="3.9s" repeatCount="indefinite" begin="-1.4s"/>
+    </g>
+    
+    <!-- Column 18 -->
+    <g transform="translate(530,0)">
+      <text x="0" y="0">Δ</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">1</text>
+      <text x="0" y="60">Ξ</text>
+      <text x="0" y="80">0</text>
+      <text x="0" y="100">π</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="530,-140; 530,140" dur="3.2s" repeatCount="indefinite" begin="-2.1s"/>
+    </g>
+    
+    <!-- Column 19 -->
+    <g transform="translate(560,0)">
+      <text x="0" y="0">1</text>
+      <text x="0" y="20">φ</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">1</text>
+      <text x="0" y="80">λ</text>
+      <text x="0" y="100">0</text>
+      <text x="0" y="120">1</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="560,-140; 560,140" dur="3.7s" repeatCount="indefinite" begin="-0.2s"/>
+    </g>
+    
+    <!-- Column 20 -->
+    <g transform="translate(590,0)">
+      <text x="0" y="0">Ψ</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">Δ</text>
+      <text x="0" y="60">1</text>
+      <text x="0" y="80">0</text>
+      <text x="0" y="100">Ξ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="590,-140; 590,140" dur="3.5s" repeatCount="indefinite" begin="-1.9s"/>
+    </g>
+    
+    <!-- Column 21 -->
+    <g transform="translate(620,0)">
+      <text x="0" y="0">0</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">π</text>
+      <text x="0" y="60">0</text>
+      <text x="0" y="80">φ</text>
+      <text x="0" y="100">1</text>
+      <text x="0" y="120">λ</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="620,-140; 620,140" dur="4.0s" repeatCount="indefinite" begin="-1.0s"/>
+    </g>
+    
+    <!-- Column 22 -->
+    <g transform="translate(650,0)">
+      <text x="0" y="0">1</text>
+      <text x="0" y="20">0</text>
+      <text x="0" y="40">Ψ</text>
+      <text x="0" y="60">1</text>
+      <text x="0" y="80">Δ</text>
+      <text x="0" y="100">0</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="650,-140; 650,140" dur="3.3s" repeatCount="indefinite" begin="-1.7s"/>
+    </g>
+    
+    <!-- Column 23 -->
+    <g transform="translate(680,0)">
+      <text x="0" y="0">λ</text>
+      <text x="0" y="20">1</text>
+      <text x="0" y="40">0</text>
+      <text x="0" y="60">Ξ</text>
+      <text x="0" y="80">1</text>
+      <text x="0" y="100">π</text>
+      <text x="0" y="120">0</text>
+      <animateTransform attributeName="transform" type="translate"
+        values="680,-140; 680,140" dur="3.6s" repeatCount="indefinite" begin="-0.5s"/>
     </g>
   </g>
 </svg>
