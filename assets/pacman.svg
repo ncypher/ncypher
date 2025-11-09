@@ -17,11 +17,7 @@
   </g>
 
   <!-- ===== DOT STREAM (right -> left; chomp at t≈0.425) ===== -->
-  <!-- Motion is 760 -> -40 over 6s (800px). solve 420 = 760 - 800*t => t=0.425 -->
   <g fill="#00ffd1">
-    <!-- one dot every 0.4s; negative begins so stream is already flowing -->
-    <!-- copy this block 15x with begin offsets 0,-0.4,-0.8,...,-5.6 -->
-    <!-- keyTimes collapse radius right at the mouth -->
     <!-- dot 0 -->
     <circle cx="760" cy="70" r="4">
       <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="0s"/>
@@ -85,4 +81,33 @@
     <!-- dot 10 -->
     <circle cx="760" cy="70" r="4">
       <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-4.0s"/>
-      <animate attributeNam
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-4.0s"/>
+    </circle>
+    <!-- dot 11 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-4.4s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-4.4s"/>
+    </circle>
+    <!-- dot 12 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-4.8s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-4.8s"/>
+    </circle>
+    <!-- dot 13 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-5.2s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-5.2s"/>
+    </circle>
+    <!-- dot 14 -->
+    <circle cx="760" cy="70" r="4">
+      <animate attributeName="cx" dur="6s" values="760; -40" repeatCount="indefinite" begin="-5.6s"/>
+      <animate attributeName="r"  dur="6s" values="4;4;0;4;4"
+               keyTimes="0;0.424;0.425;0.426;1" repeatCount="indefinite" begin="-5.6s"/>
+    </circle>
+  </g>
+</svg>
+
