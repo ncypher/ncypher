@@ -26,15 +26,18 @@ Where others write `for` loops, I whisper intentions to AI familiars.
 Where traditional coders debug line-by-line, I sculpt solutions through conversation with intelligent systems.  
 Each prompt is an incantation. Each AI response, a spell manifested.
 
-### **The Evolution of Code — From Primates to Prompt Engineers**
+---
+
+### ✨ **The Evolution of Code — From Primates to Prompt Engineers**
 
 <div align="center">
 
-🧬 → 🦍 → 🚶 → 💻 → 🤖 → 🧙‍♂️ → ✨
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=800&color=00FFD1&center=true&vCenter=true&width=800&lines=🧬+Binary+Cells;🦍+Assembly+Crawling;🚶+Procedural+Walking;💻+Object+Standing;🤖+AI-Assisted+Tool+Using;🧙‍♂️+Prompt+Engineering;✨+Singularity+Transcendence)](https://git.io/typing-svg)
 
-**Binary Cells** → **Assembly Crawling** → **Procedural Walking** → **Object Standing** → **AI-Assisted Tool Using** → **Prompt Engineering** → **Singularity Transcendence**
+*(1940s → 1950s → 1970s → 1990s → 2020s → 2024+ → 20XX)*  
 
-*(1940s)* → *(1950s)* → *(1970s)* → *(1990s)* → *(2020s)* → *(2024+)* → *(20XX)*
+<!-- Placeholder for Animated SVG Timeline -->
+<img src="https://raw.githubusercontent.com/ncypher/ncypher/main/assets/evolution_timeline.svg" width="750" alt="Evolution Timeline — From Primates to Prompt Engineers"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=8000&pause=1000&color=00FFD1&center=true&vCenter=true&width=900&lines=The+march+toward+the+singularity...;From+punch+cards+%E2%86%92+to+speaking+in+natural+language;Evolution+complete%3A+Humans+%2B+AI+%3D+Vibe+Coding+%F0%9F%AA%84)](https://git.io/typing-svg)
 
@@ -43,12 +46,12 @@ Each prompt is an incantation. Each AI response, a spell manifested.
 **My place in the timeline:**  
 🧙‍♂️ **Prompt Engineer Era** — Where natural language becomes code, and AI becomes my coding familiar
 
-- 🧙‍♂️ **AI Solutions Architect** crafting systems through prompt engineering
-- 🏗️ **Enterprise Developer** @ KW Corporation — building CRM, WMS & middleware
-- 🔮 **Platform Sorcerer** specializing in QuickBase & ServiceNow automation
-- 🌉 **Integration Alchemist** transmuting data across API dimensions
-- 🍄 **Pattern Seeker** — foraging mushrooms, fractals, and elegant abstractions
-- 🎧 **Powered by** jazz improvisation, techno rhythms, and late-night pancake rituals
+- 🧙‍♂️ **AI Solutions Architect** crafting systems through prompt engineering  
+- 🏗️ **Enterprise Developer** @ KW Corporation — building CRM, WMS & middleware  
+- 🔮 **Platform Sorcerer** specializing in QuickBase & ServiceNow automation  
+- 🌉 **Integration Alchemist** transmuting data across API dimensions  
+- 🍄 **Pattern Seeker** — foraging mushrooms, fractals, and elegant abstractions  
+- 🎧 **Powered by** jazz improvisation, techno rhythms, and late-night pancake rituals  
 
 ---
 
@@ -56,49 +59,49 @@ Each prompt is an incantation. Each AI response, a spell manifested.
 
 ### 🏢 **Enterprise Spellwork**
 
-#### **Service Manager CRM** — *Unified Client & Asset Orchestration*
+#### 🪄 **Service Manager CRM** — *Unified Client & Asset Orchestration*  
 Multi-database relationship management with automated workflow pipelines connecting customer records, asset tracking, and service history across hierarchical business units.
 
-#### **Hierarchical Warehouse Management System** — *Nested Inventory Intelligence*
+#### 🌀 **Hierarchical Warehouse Management System** — *Nested Inventory Intelligence*  
 Complex location hierarchy (WMS → Pallets → Crates → Bins → Items) serving 80+ locations with mobile-responsive interfaces for real-time staging, pickup coordination, and cross-site transfers.
 
-#### **Customer Self-Service Portal** — *Multi-Tenant Interface Gateway*
+#### 🧭 **Customer Self-Service Portal** — *Multi-Tenant Interface Gateway*  
 Authenticated portal allowing 80+ independent locations to manage service requests, view asset status, and track technician dispatch — all while maintaining data isolation.
 
-#### **TechClock Time Tracking System** — *Multi-Platform Time Synchronization*
+#### ⏱️ **TechClock Time Tracking System** — *Multi-Platform Time Synchronization*  
 Field technician clocking mechanism with complex state management (Preparation, Travel, Onsite, Pauses, Material Runs, EOD Handling) syncing time data bidirectionally between TSheets/QuickBooks Time and QuickBase with automated payroll calculations.
 
 ---
 
-### 🧩 **AI-Powered Sorcery & Intelligent Agents**
+### 🤖 **AI-Powered Sorcery & Intelligent Agents**
 
-#### **Receipt Vision Parser** — *AI-Powered Expense Automation*
+#### 🧾 **Receipt Vision Parser** — *AI-Powered Expense Automation*  
 VS Code integrated tool using AI vision models to extract structured data from receipt images — automatically parsing vendor names, dates, line items, totals, and tax into JSON for expense management systems.
 
-#### **Site Photo Rating Agent** — *AI Visual Quality Assessment*
+#### 📸 **Site Photo Rating Agent** — *AI Visual Quality Assessment*  
 Autonomous AI agent that analyzes construction/installation site photos and provides structured quality ratings based on composition, lighting, completeness, and professional standards — streamlining field documentation review.
 
 ---
 
 ### 🌉 **Middleware & Cross-Dimensional Portals**
 
-#### **Q2Q Integration Platform** — *Flask-Based Multi-API Orchestrator*
+#### 🧩 **Q2Q Integration Platform** — *Flask-Based Multi-API Orchestrator*  
 Production middleware (deployed on Digital Ocean) synchronizing financial data, timesheets, and customer records across QuickBooks, TSheets/QuickBooks Time, and QuickBase with OAuth 2.0 token management and automated refresh flows.
 
-#### **Base2Now** — *ServiceNow CMDB Asset Synchronization*
+#### 🛰️ **Base2Now** — *ServiceNow CMDB Asset Synchronization*  
 ServiceNow scoped application syncing 29,000+ asset records from QuickBase into Configuration Management Database using Transform Maps, field mapping logic, and automated reconciliation rules.
 
-#### **Token Flow** — *OAuth Middleware Service*
+#### 🔁 **Token Flow** — *OAuth Middleware Service*  
 Automated OAuth token refresh service for maintaining persistent connections between QuickBooks and QuickBase, eliminating manual re-authentication and ensuring uninterrupted data flow.
 
 ---
 
 ### 🎮 **Experimental Transmutations**
 
-#### **[Vibe Coded Games](https://ncypher.github.io/tomfoolery/)** — *Interactive Web Experiments*
+#### 🧙‍♂️ [Vibe Coded Games](https://ncypher.github.io/tomfoolery/) — *Interactive Web Experiments*  
 Collection of browser-based games and interactive visualizations exploring the intersection of logic, art, and play.
 
-#### **QuickBase Automation Frameworks** — *Reusable Spell Components*
+#### ⚙️ **QuickBase Automation Frameworks** — *Reusable Spell Components*  
 Modular JavaScript utilities for pipeline automation, formula optimization, and mobile-responsive UI patterns within QuickBase's code page environment.
 
 ---
@@ -143,14 +146,13 @@ Modular JavaScript utilities for pipeline automation, formula optimization, and 
 
 ## 🌉 Philosophy of the Portal
 
-APIs are **shimmering gateways between dimensions** — where QuickBase whispers to QuickBooks, where ServiceNow communes with spreadsheets, where data flows like water finding its level.
+APIs are **shimmering gateways between dimensions** — where QuickBase whispers to QuickBooks, where ServiceNow communes with spreadsheets, where data flows like water finding its level.  
 
 I am the **interdimensional diplomat**, translating protocols, negotiating schemas, weaving disparate realms into coherent symphonies.
 
 **Connected Realms:**  
-```
 QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models ⟷ Custom APIs
-```
+
 
 > *"Every integration is a conversation. Every webhook, a whispered secret across the void."*
 
@@ -172,11 +174,11 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 
 ## 🌟 Current Transmutations
 
-- 🦅 **KW Raven** — Remote asset visualization platform (Flask + SQLAlchemy + AI data enrichment)
-- 🧩 **Base2Now Evolution** — Next-gen ServiceNow CMDB integration with automated field mapping
-- 🪄 **Token Flow Service** — Self-healing OAuth middleware for QuickBooks ↔ QuickBase persistence
-- 🧠 **AI Workflow Frameworks** — Reusable prompt engineering patterns for development acceleration
-- 🎓 **Vibe Coding Mentorship** — Teaching the arcane arts of AI-assisted development
+- 🦅 **KW Raven** — Remote asset visualization platform (Flask + SQLAlchemy + AI data enrichment)  
+- 🧩 **Base2Now Evolution** — Next-gen ServiceNow CMDB integration with automated field mapping  
+- 🪄 **Token Flow Service** — Self-healing OAuth middleware for QuickBooks ↔ QuickBase persistence  
+- 🧠 **AI Workflow Frameworks** — Reusable prompt engineering patterns for development acceleration  
+- 🎓 **Vibe Coding Mentorship** — Teaching the arcane arts of AI-assisted development  
 
 ---
 
@@ -188,13 +190,13 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 > ### *Shipping is art unleashed into reality."*
 
 **The Vibe Coder's Creed:**
-- Each commit is a spell inscribed in the grand ledger
-- Each deployment, a ritual bringing dreams into being
-- Each bug fixed, a pattern seen through the fog
-- Each AI prompt, a dialogue with digital consciousness
+- Each commit is a spell inscribed in the grand ledger  
+- Each deployment, a ritual bringing dreams into being  
+- Each bug fixed, a pattern seen through the fog  
+- Each AI prompt, a dialogue with digital consciousness  
 
 **Powered by:**  
-☕ Midnight espresso rituals | 🎧 Lo-fi techno transmissions | 🥞 Pancake meditation | 🍄 Forest wisdom
+☕ Midnight espresso rituals | 🎧 Lo-fi techno transmissions | 🥞 Pancake meditation | 🍄 Forest wisdom  
 
 ---
 
@@ -210,20 +212,16 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 </p>
 
 ### 💬 Open to Collaboration On:
-- **AI-powered development workflows** & prompt engineering patterns
-- **Enterprise integration architecture** & middleware sorcery
-- **Creative coding** & generative design experiments
-- **Platform automation** across QuickBase, ServiceNow, and beyond
-- Or just vibing about code, mushrooms, jazz, and the nature of consciousness
-
-</div>
+- **AI-powered development workflows** & prompt engineering patterns  
+- **Enterprise integration architecture** & middleware sorcery  
+- **Creative coding** & generative design experiments  
+- **Platform automation** across QuickBase, ServiceNow, and beyond  
+- Or just vibing about code, mushrooms, jazz, and the nature of consciousness  
 
 ---
 
-<div align="center">
-
-## ⚡ *"Where ancient runes meet modern prompts."*
-## 🪄 *"Where vibe coding channels production magic."*
+## ⚡ *"Where ancient runes meet modern prompts."*  
+## 🪄 *"Where vibe coding channels production magic."*  
 ## 🌌 *"Where the next 50 years of spellcraft begins."*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ncypher&color=00FFD1&style=for-the-badge)
@@ -232,3 +230,4 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 ![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 </div>
+
