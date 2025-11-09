@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFD1&vCenter=true&width=1000&lines=Conjuring+enterprise+systems+with+AI+%26+vibe+coding;QuickBase+%7C+ServiceNow+%7C+Python+%7C+JavaScript;Prompt+engineering+meets+production+deployments+%F0%9F%AA%84)](https://git.io/typing-svg)
 
-<!-- Contribution Snake Animation -->
+<!-- Contribution Snake Animation (top only) -->
 ![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 <!-- Animated Code Spell -->
@@ -36,22 +36,21 @@ Each prompt is an incantation. Each AI response, a spell manifested.
 
 *(1940s → 1950s → 1970s → 1990s → 2020s → 2024+ → 20XX)*  
 
-<!-- Placeholder for Animated SVG Timeline -->
-<img src="https://raw.githubusercontent.com/ncypher/ncypher/main/assets/evolution_timeline.svg" width="750" alt="Evolution Timeline — From Primates to Prompt Engineers"/>
+🔗 **[Explore the real-world tech timeline →](https://en.wikipedia.org/wiki/History_of_computing)**  
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=8000&pause=1000&color=00FFD1&center=true&vCenter=true&width=900&lines=The+march+toward+the+singularity...;From+punch+cards+%E2%86%92+to+speaking+in+natural+language;Evolution+complete%3A+Humans+%2B+AI+%3D+Vibe+Coding+%F0%9F%AA%84)](https://git.io/typing-svg)
 
 </div>
 
 **My place in the timeline:**  
-🧙‍♂️ **Prompt Engineer Era** — Where natural language becomes code, and AI becomes my coding familiar
+🧙‍♂️ **Prompt Engineer Era** — Where human language and machine logic finally speak the same tongue  
 
-- 🧙‍♂️ **AI Solutions Architect** crafting systems through prompt engineering  
-- 🏗️ **Enterprise Developer** @ KW Corporation — building CRM, WMS & middleware  
-- 🔮 **Platform Sorcerer** specializing in QuickBase & ServiceNow automation  
-- 🌉 **Integration Alchemist** transmuting data across API dimensions  
-- 🍄 **Pattern Seeker** — foraging mushrooms, fractals, and elegant abstractions  
-- 🎧 **Powered by** jazz improvisation, techno rhythms, and late-night pancake rituals  
+- 🧙‍♂️ **AI Solutions Architect** — shaping architectures through conversation, intuition, and automation  
+- 🏗️ **Enterprise Developer** @ KW Corporation — full-stack engineer of entire digital ecosystems: databases, APIs, automation layers, and mobile applications woven into a single operational fabric  
+- 🔮 **Platform Sorcerer** — **conjuring enterprise-grade systems by blending no-code agility with full-code power**  
+- 🌉 **Integration Alchemist** — translating data between distant realms, ensuring each system sings in harmony  
+- 🍄 **Pattern Seeker** — foraging elegance in logic, finding symmetry in complexity  
+- 🎧 **Powered by** rhythm, caffeine, and the quiet magic between midnight and dawn  
 
 ---
 
@@ -153,7 +152,6 @@ I am the **interdimensional diplomat**, translating protocols, negotiating schem
 **Connected Realms:**  
 QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models ⟷ Custom APIs
 
-
 > *"Every integration is a conversation. Every webhook, a whispered secret across the void."*
 
 ---
@@ -218,7 +216,11 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 - **Platform automation** across QuickBase, ServiceNow, and beyond  
 - Or just vibing about code, mushrooms, jazz, and the nature of consciousness  
 
+</div>
+
 ---
+
+<div align="center">
 
 ## ⚡ *"Where ancient runes meet modern prompts."*  
 ## 🪄 *"Where vibe coding channels production magic."*  
@@ -226,8 +228,15 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ncypher&color=00FFD1&style=for-the-badge)
 
-<!-- Snake eating contributions at the bottom -->
-![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
+<!-- Footer Animation: Retro Pac-Man (no upload required) -->
+<p align="center">
+  <img src="./assets/matrix.svg" width="700" alt="Matrix Code Rain"/>
+</p>
+
+<!-- Optional alternative: Matrix rain (uncomment to use)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/matrix-rain/main/matrix.svg" width="700" alt="Matrix Code Rain"/>
+</p>
+-->
 
 </div>
-
