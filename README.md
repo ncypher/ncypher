@@ -229,9 +229,23 @@ QuickBase ⟷ QuickBooks ⟷ TSheets ⟷ ServiceNow ⟷ FastField ⟷ AI Models 
 ![Profile Views](https://komarev.com/ghpvc/?username=ncypher&color=00FFD1&style=for-the-badge)
 
 <!-- Footer Animation: Retro Pac-Man (no upload required) -->
+---
+
+<div align="center">
+
+## ⚡ *"Where ancient runes meet modern prompts."*  
+## 🪄 *"Where vibe coding channels production magic."*  
+## 🌌 *"Where the next 50 years of spellcraft begins."*
+
+![Profile Views](https://komarev.com/ghpvc/?username=ncypher&color=00FFD1&style=for-the-badge)
+
+<!-- Local Pac-Man footer animation -->
 <p align="center">
-  <img src="./assets/matrix.svg" width="700" alt="Matrix Code Rain"/>
+  <img src="./assets/pacman.svg" width="700" alt="Pac-Man Animation"/>
 </p>
+
+</div>
+
 
 <!-- Optional alternative: Matrix rain (uncomment to use)
 <p align="center">
