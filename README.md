@@ -69,6 +69,7 @@ Small games and experiments are where I let the human-to-AI workflow stay playfu
 | [Snake Pro](https://ncypher.github.io/tomfoolery/snake-pro.html) | Classic game mechanics tuned with smoother motion and visual feedback |
 | [Cyber-Runner](https://ncypher.github.io/tomfoolery/cyber-runner.html) | Side-scroller timing, obstacle design, and quick-play browser fun |
 | [Pixel Pet](https://ncypher.github.io/tomfoolery/pixel-pet.html) | A tiny care-loop toy for state, mood, and interaction experiments |
+| [Mandelbrot Lab](https://ncypher.github.io/tomfoolery/mandelbrot-lab.html) | Interactive fractal navigation with zoom, palettes, hotspots, and depth hunting |
 
 Next ideas to vibe out: AI-assisted level generators, weird little productivity games, data-as-arcade visualizations, prompt-driven NPC behavior, and miniature simulations of real operations workflows.
 
