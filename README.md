@@ -58,6 +58,22 @@ Browser-based sketches, games, data visuals, and playful interface studies: [ncy
 
 ---
 
+## Vibe Lab
+
+Small games and experiments are where I let the human-to-AI workflow stay playful. A few live samples:
+
+| Experiment | Why It Exists |
+| --- | --- |
+| [Space Invaders Pro](https://ncypher.github.io/tomfoolery/space-invaders-pro.html) | Retro arcade logic with modern JavaScript, particles, levels, and neon polish |
+| [3D Rubik's Cube Pro](https://ncypher.github.io/tomfoolery/rubiks-cube-pro.html) | Three.js interaction, camera control, lighting, and spatial UI practice |
+| [Snake Pro](https://ncypher.github.io/tomfoolery/snake-pro.html) | Classic game mechanics tuned with smoother motion and visual feedback |
+| [Cyber-Runner](https://ncypher.github.io/tomfoolery/cyber-runner.html) | Side-scroller timing, obstacle design, and quick-play browser fun |
+| [Pixel Pet](https://ncypher.github.io/tomfoolery/pixel-pet.html) | A tiny care-loop toy for state, mood, and interaction experiments |
+
+Next ideas to vibe out: AI-assisted level generators, weird little productivity games, data-as-arcade visualizations, prompt-driven NPC behavior, and miniature simulations of real operations workflows.
+
+---
+
 ## Working Style
 
 - I use AI as a thinking partner, with engineering judgment still at the wheel.
@@ -75,30 +91,30 @@ Browser-based sketches, games, data visuals, and playful interface studies: [ncy
 ### Languages and Frameworks
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" /></a>
+  <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" /></a>
 </p>
 
 ### Platforms and Infrastructure
 
 <p>
-  <img src="https://img.shields.io/badge/QuickBase-6B00D7?style=for-the-badge&logoColor=white" alt="QuickBase" />
-  <img src="https://img.shields.io/badge/ServiceNow-00A3E0?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow" />
-  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <a href="https://www.quickbase.com/"><img src="https://img.shields.io/badge/QuickBase-6B00D7?style=for-the-badge&logoColor=white" alt="QuickBase" /></a>
+  <a href="https://developer.servicenow.com/"><img src="https://img.shields.io/badge/ServiceNow-00A3E0?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow" /></a>
+  <a href="https://www.digitalocean.com/"><img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean" /></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
 </p>
 
 ### APIs and AI Tools
 
 <p>
-  <img src="https://img.shields.io/badge/QuickBooks_API-2CA01C?style=for-the-badge&logo=quickbooks&logoColor=white" alt="QuickBooks API" />
-  <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" alt="REST APIs" />
-  <img src="https://img.shields.io/badge/OAuth_2.0-EB5424?style=for-the-badge" alt="OAuth 2.0" />
-  <img src="https://img.shields.io/badge/OpenAI_APIs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI APIs" />
-  <img src="https://img.shields.io/badge/Claude_AI-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude AI" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Copilot" />
+  <a href="https://developer.intuit.com/app/developer/qbo/docs/get-started"><img src="https://img.shields.io/badge/QuickBooks_API-2CA01C?style=for-the-badge&logo=quickbooks&logoColor=white" alt="QuickBooks API" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" alt="REST APIs" /></a>
+  <a href="https://oauth.net/2/"><img src="https://img.shields.io/badge/OAuth_2.0-EB5424?style=for-the-badge" alt="OAuth 2.0" /></a>
+  <a href="https://platform.openai.com/docs"><img src="https://img.shields.io/badge/OpenAI_APIs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI APIs" /></a>
+  <a href="https://docs.anthropic.com/en/docs"><img src="https://img.shields.io/badge/Claude_AI-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude AI" /></a>
+  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Copilot" /></a>
 </p>
 
 </div>
