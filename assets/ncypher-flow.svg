@@ -1,8 +1,8 @@
-<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">ncypher hub and spoke workflow banner</title>
   <desc id="desc">An animated hub and spoke diagram showing a human idea moving to AI collaboration, into a cloud solution fabric, then branching to platforms and human teams.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#071014"/>
       <stop offset="0.48" stop-color="#0d1117"/>
       <stop offset="1" stop-color="#111b24"/>
@@ -37,23 +37,23 @@
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#00ffd1" stroke-opacity="0.07" stroke-width="1"/>
     </pattern>
-    <path id="mainPath" d="M88 136 H214 H340 H430"/>
-    <path id="branchTop" d="M430 136 C515 74 615 70 720 82"/>
-    <path id="branchMid" d="M430 136 C540 136 620 136 720 136"/>
-    <path id="branchBot" d="M430 136 C515 198 615 202 720 190"/>
-    <path id="teamTop" d="M720 82 C760 82 790 92 824 106"/>
-    <path id="teamMid" d="M720 136 C762 136 792 136 824 136"/>
-    <path id="teamBot" d="M720 190 C760 190 790 180 824 166"/>
+    <path id="mainPath" d="M88 166 H214 H340 H430"/>
+    <path id="branchTop" d="M430 166 C515 106 615 102 720 114"/>
+    <path id="branchMid" d="M430 166 C540 166 620 166 720 166"/>
+    <path id="branchBot" d="M430 166 C515 226 615 230 720 218"/>
+    <path id="teamTop" d="M720 114 C760 114 790 124 824 138"/>
+    <path id="teamMid" d="M720 166 C762 166 792 166 824 166"/>
+    <path id="teamBot" d="M720 218 C760 218 790 208 824 194"/>
   </defs>
 
-  <rect width="900" height="260" rx="18" fill="url(#bg)"/>
-  <rect width="900" height="260" rx="18" fill="url(#grid)"/>
-  <rect x="1" y="1" width="898" height="258" rx="17" fill="none" stroke="#00ffd1" stroke-opacity="0.28"/>
+  <rect width="900" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="900" height="300" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="898" height="298" rx="17" fill="none" stroke="#00ffd1" stroke-opacity="0.28"/>
 
-  <g opacity="0.56" font-family="Consolas, Monaco, monospace" font-size="13">
-    <text x="34" y="38" fill="#00ffd1">&gt; human observation captured</text>
-    <text x="34" y="58" fill="#7dfbe8" opacity="0.78">&gt; AI turns language into design</text>
-    <text x="34" y="78" fill="#9cf6ff" opacity="0.56">&gt; cloud fabric routes the solution</text>
+  <g opacity="0.56" font-family="Consolas, Monaco, monospace" font-size="12">
+    <text x="34" y="36" fill="#00ffd1">&gt; observe</text>
+    <text x="34" y="54" fill="#7dfbe8" opacity="0.78">&gt; distill</text>
+    <text x="34" y="72" fill="#9cf6ff" opacity="0.56">&gt; deploy</text>
   </g>
 
   <text x="450" y="44" text-anchor="middle" fill="#e7fffb" font-family="Consolas, Monaco, monospace" font-size="30" font-weight="700" letter-spacing="4">NCYPHER</text>
@@ -76,63 +76,73 @@
   <use href="#teamBot" fill="none" stroke="#9cf6ff" stroke-opacity="0.62" stroke-width="2" stroke-linecap="round"/>
 
   <g font-family="Consolas, Monaco, monospace" text-anchor="middle" font-size="12" font-weight="700" fill="#dffcf8">
-    <g transform="translate(88 136)">
+    <g transform="translate(88 166)">
       <circle r="26" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.58"/>
       <circle r="7" fill="url(#cyanNode)" filter="url(#glow)">
         <animate attributeName="r" values="7;11;7" dur="2.8s" repeatCount="indefinite"/>
       </circle>
-      <text y="44">IDEA</text>
+      <rect x="-23" y="39" width="46" height="18" rx="9" fill="#071014" opacity="0.86"/>
+      <text y="52">IDEA</text>
     </g>
-    <g transform="translate(214 136)">
+    <g transform="translate(214 166)">
       <circle r="28" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.58"/>
       <circle r="8" fill="url(#cyanNode)" filter="url(#glow)">
         <animate attributeName="r" values="8;12;8" dur="2.8s" begin="0.35s" repeatCount="indefinite"/>
       </circle>
-      <text y="46">AI</text>
+      <rect x="-17" y="41" width="34" height="18" rx="9" fill="#071014" opacity="0.86"/>
+      <text y="54">AI</text>
     </g>
-    <g transform="translate(340 136)">
+    <g transform="translate(340 166)">
       <circle r="28" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.58"/>
       <circle r="8" fill="url(#cyanNode)" filter="url(#glow)">
         <animate attributeName="r" values="8;12;8" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
       </circle>
-      <text y="46">DESIGN</text>
+      <rect x="-33" y="41" width="66" height="18" rx="9" fill="#071014" opacity="0.86"/>
+      <text y="54">DESIGN</text>
     </g>
-    <g transform="translate(430 136)">
+    <g transform="translate(430 166)">
       <circle r="38" fill="#16100b" stroke="#ffb86b" stroke-opacity="0.72"/>
       <circle r="12" fill="url(#hubNode)" filter="url(#glow)">
         <animate attributeName="r" values="12;18;12" dur="2.4s" repeatCount="indefinite"/>
       </circle>
-      <text y="58" fill="#ffcf91">CLOUD HUB</text>
+      <rect x="-50" y="52" width="100" height="20" rx="10" fill="#071014" opacity="0.9"/>
+      <text y="67" fill="#ffcf91">CLOUD HUB</text>
     </g>
-    <g transform="translate(720 82)">
+    <g transform="translate(720 114)">
       <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
       <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
-      <text y="42">PLATFORM</text>
+      <rect x="-45" y="37" width="90" height="18" rx="9" fill="#071014" opacity="0.88"/>
+      <text y="50">PLATFORM</text>
     </g>
-    <g transform="translate(720 136)">
+    <g transform="translate(720 166)">
       <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
       <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
-      <text y="42">WORKFLOW</text>
+      <rect x="-45" y="37" width="90" height="18" rx="9" fill="#071014" opacity="0.88"/>
+      <text y="50">WORKFLOW</text>
     </g>
-    <g transform="translate(720 190)">
+    <g transform="translate(720 218)">
       <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
       <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
-      <text y="42">APP</text>
+      <rect x="-21" y="37" width="42" height="18" rx="9" fill="#071014" opacity="0.88"/>
+      <text y="50">APP</text>
     </g>
-    <g transform="translate(824 106)">
+    <g transform="translate(824 138)">
       <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
       <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
-      <text y="34" font-size="10">TEAM</text>
-    </g>
-    <g transform="translate(824 136)">
-      <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
-      <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
-      <text y="34" font-size="10">USER</text>
+      <rect x="-22" y="27" width="44" height="16" rx="8" fill="#071014" opacity="0.9"/>
+      <text y="39" font-size="10">TEAM</text>
     </g>
     <g transform="translate(824 166)">
       <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
       <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
-      <text y="34" font-size="10">FIELD</text>
+      <rect x="-22" y="27" width="44" height="16" rx="8" fill="#071014" opacity="0.9"/>
+      <text y="39" font-size="10">USER</text>
+    </g>
+    <g transform="translate(824 194)">
+      <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
+      <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
+      <rect x="-25" y="27" width="50" height="16" rx="8" fill="#071014" opacity="0.9"/>
+      <text y="39" font-size="10">FIELD</text>
     </g>
   </g>
 
@@ -164,16 +174,16 @@
   </g>
 
   <g opacity="0.42" font-family="Consolas, Monaco, monospace" font-size="11" fill="#00ffd1">
-    <text x="44" y="232">OBSERVE</text>
-    <text x="168" y="232">PROMPT</text>
-    <text x="292" y="232">DISTILL</text>
-    <text x="405" y="232" fill="#ffb86b">SOLUTION FABRIC</text>
-    <text x="628" y="232">DISTRIBUTE</text>
-    <text x="764" y="232">FEEDBACK</text>
+    <text x="44" y="278">OBSERVE</text>
+    <text x="168" y="278">PROMPT</text>
+    <text x="292" y="278">DISTILL</text>
+    <text x="405" y="278" fill="#ffb86b">SOLUTION FABRIC</text>
+    <text x="628" y="278">DISTRIBUTE</text>
+    <text x="764" y="278">FEEDBACK</text>
   </g>
 
-  <rect x="0" y="0" width="900" height="260" rx="18" fill="#ffffff" opacity="0.04">
-    <animate attributeName="y" values="-260;260" dur="5.5s" repeatCount="indefinite"/>
+  <rect x="0" y="0" width="900" height="300" rx="18" fill="#ffffff" opacity="0.04">
+    <animate attributeName="y" values="-300;300" dur="5.5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0.045;0" dur="5.5s" repeatCount="indefinite"/>
   </rect>
 </svg>
