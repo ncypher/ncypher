@@ -4,7 +4,7 @@
 
 **AI solutions architect building practical automation, resilient integrations, and human-centered tools.**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1200&color=00FFD1&center=true&vCenter=true&width=900&lines=QuickBase+%2B+ServiceNow+%2B+QuickBooks;AI-assisted+middleware+and+workflow+systems;Turning+messy+operations+into+clear+software)](https://git.io/typing-svg)
+<img src="./assets/ncypher-flow.svg" width="900" alt="Animated ncypher data-flow banner" />
 
 [![GitHub followers](https://img.shields.io/github/followers/ncypher?style=social)](https://github.com/ncypher)
 [![X Follow](https://img.shields.io/twitter/follow/TomHarwood75?style=social)](https://x.com/TomHarwood75)

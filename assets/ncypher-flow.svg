@@ -1,0 +1,125 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ncypher animated data flow banner</title>
+  <desc id="desc">An animated cybernetic workflow diagram showing human intent flowing through AI, QuickBase, ServiceNow, QuickBooks, and automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071014"/>
+      <stop offset="0.46" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111b24"/>
+    </linearGradient>
+    <linearGradient id="line" x1="90" y1="0" x2="810" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ffd1" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#00ffd1" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#9cf6ff" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#e7fffb"/>
+      <stop offset="0.25" stop-color="#00ffd1"/>
+      <stop offset="1" stop-color="#00ffd1" stop-opacity="0.08"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#00ffd1" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <path id="flowPath" d="M112 154 C210 74 305 96 382 130 S555 188 642 126 761 90 810 116"/>
+  </defs>
+
+  <rect width="900" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="900" height="260" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="898" height="258" rx="17" fill="none" stroke="#00ffd1" stroke-opacity="0.28"/>
+
+  <g opacity="0.5">
+    <text x="34" y="38" fill="#00ffd1" font-family="Consolas, Monaco, monospace" font-size="13">&gt; booting ncypher systems lab</text>
+    <text x="34" y="58" fill="#7dfbe8" font-family="Consolas, Monaco, monospace" font-size="13" opacity="0.72">&gt; mapping messy workflow to reliable automation</text>
+    <text x="34" y="78" fill="#9cf6ff" font-family="Consolas, Monaco, monospace" font-size="13" opacity="0.54">&gt; signal locked</text>
+  </g>
+
+  <text x="450" y="48" text-anchor="middle" fill="#e7fffb" font-family="Consolas, Monaco, monospace" font-size="30" font-weight="700" letter-spacing="4">NCYPHER</text>
+  <text x="450" y="75" text-anchor="middle" fill="#00ffd1" font-family="Consolas, Monaco, monospace" font-size="13" letter-spacing="3">INTENT // AI // AUTOMATION // INTEGRATION</text>
+
+  <use href="#flowPath" fill="none" stroke="#062d2f" stroke-width="22" stroke-linecap="round"/>
+  <use href="#flowPath" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <use href="#flowPath" fill="none" stroke="#e7fffb" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 18" opacity="0.65">
+    <animate attributeName="stroke-dashoffset" values="0;-120" dur="3.8s" repeatCount="indefinite"/>
+  </use>
+
+  <g font-family="Consolas, Monaco, monospace" text-anchor="middle" font-size="12" fill="#dffcf8">
+    <g transform="translate(112 154)">
+      <circle r="31" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
+      <circle r="8" fill="url(#node)" filter="url(#glow)">
+        <animate attributeName="r" values="8;12;8" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text y="50">HUMAN</text>
+    </g>
+    <g transform="translate(300 98)">
+      <circle r="29" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
+      <circle r="7" fill="url(#node)" filter="url(#glow)">
+        <animate attributeName="r" values="7;11;7" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <text y="48">AI</text>
+    </g>
+    <g transform="translate(450 148)">
+      <circle r="34" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.6"/>
+      <circle r="9" fill="url(#node)" filter="url(#glow)">
+        <animate attributeName="r" values="9;13;9" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <text y="54">QUICKBASE</text>
+    </g>
+    <g transform="translate(628 128)">
+      <circle r="31" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
+      <circle r="8" fill="url(#node)" filter="url(#glow)">
+        <animate attributeName="r" values="8;12;8" dur="2.6s" begin="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <text y="50">SERVICENOW</text>
+    </g>
+    <g transform="translate(810 116)">
+      <circle r="31" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
+      <circle r="8" fill="url(#node)" filter="url(#glow)">
+        <animate attributeName="r" values="8;12;8" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text y="50">OUTPUT</text>
+    </g>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="5" fill="#e7fffb">
+      <animateMotion dur="4.4s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#flowPath"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#00ffd1">
+      <animateMotion dur="4.4s" begin="1.45s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#flowPath"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.4s" begin="1.45s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#9cf6ff">
+      <animateMotion dur="4.4s" begin="2.9s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#flowPath"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="4.4s" begin="2.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.42" font-family="Consolas, Monaco, monospace" font-size="11" fill="#00ffd1">
+    <text x="46" y="226">REST</text>
+    <text x="135" y="226">OAUTH</text>
+    <text x="238" y="226">PYTHON</text>
+    <text x="354" y="226">JAVASCRIPT</text>
+    <text x="501" y="226">QUICKBOOKS</text>
+    <text x="655" y="226">DOCKER</text>
+    <text x="760" y="226">FIELD OPS</text>
+  </g>
+
+  <rect x="0" y="0" width="900" height="260" rx="18" fill="#ffffff" opacity="0.04">
+    <animate attributeName="y" values="-260;260" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.045;0" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
