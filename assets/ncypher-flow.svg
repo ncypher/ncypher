@@ -12,7 +12,7 @@
       <stop offset="0.55" stop-color="#00ffd1" stop-opacity="0.95"/>
       <stop offset="1" stop-color="#ffb86b" stop-opacity="0.85"/>
     </linearGradient>
-    <linearGradient id="branchLine" x1="430" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="branchLine" x1="430" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffb86b" stop-opacity="0.95"/>
       <stop offset="0.5" stop-color="#00ffd1" stop-opacity="0.8"/>
       <stop offset="1" stop-color="#9cf6ff" stop-opacity="0.35"/>
@@ -38,12 +38,12 @@
       <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#00ffd1" stroke-opacity="0.07" stroke-width="1"/>
     </pattern>
     <path id="mainPath" d="M88 166 H214 H340 H430"/>
-    <path id="branchTop" d="M430 166 C515 106 615 102 720 114"/>
-    <path id="branchMid" d="M430 166 C540 166 620 166 720 166"/>
-    <path id="branchBot" d="M430 166 C515 226 615 230 720 218"/>
-    <path id="teamTop" d="M720 114 C760 114 790 124 824 138"/>
-    <path id="teamMid" d="M720 166 C762 166 792 166 824 166"/>
-    <path id="teamBot" d="M720 218 C760 218 790 208 824 194"/>
+    <path id="branchTop" d="M430 166 C520 104 640 98 750 112"/>
+    <path id="branchMid" d="M430 166 C548 166 640 166 750 166"/>
+    <path id="branchBot" d="M430 166 C520 228 640 234 750 220"/>
+    <path id="teamTop" d="M750 112 C790 112 820 124 850 138"/>
+    <path id="teamMid" d="M750 166 C790 166 820 166 850 166"/>
+    <path id="teamBot" d="M750 220 C790 220 820 208 850 194"/>
   </defs>
 
   <rect width="900" height="300" rx="18" fill="url(#bg)"/>
@@ -57,8 +57,8 @@
   </g>
 
   <text x="450" y="44" text-anchor="middle" fill="#e7fffb" font-family="Consolas, Monaco, monospace" font-size="30" font-weight="700" letter-spacing="4">NCYPHER</text>
-  <rect x="229" y="55" width="442" height="28" rx="14" fill="#071014" opacity="0.9" stroke="#ffb86b" stroke-opacity="0.32"/>
-  <text x="450" y="73" text-anchor="middle" fill="#ffb86b" font-family="Consolas, Monaco, monospace" font-size="11" font-weight="700" letter-spacing="1.2">IDEA -&gt; AI COLLABORATION -&gt; CLOUD HUB -&gt; HUMAN OUTCOMES</text>
+  <rect x="318" y="55" width="264" height="28" rx="14" fill="#071014" opacity="0.92" stroke="#ffb86b" stroke-opacity="0.32"/>
+  <text x="450" y="73" text-anchor="middle" fill="#ffb86b" font-family="Consolas, Monaco, monospace" font-size="11" font-weight="700" letter-spacing="1.2">IDEA -&gt; AI -&gt; CLOUD HUB</text>
 
   <use href="#mainPath" fill="none" stroke="#062d2f" stroke-width="18" stroke-linecap="round"/>
   <use href="#mainPath" fill="none" stroke="url(#mainLine)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
@@ -108,41 +108,41 @@
       <rect x="-50" y="52" width="100" height="20" rx="10" fill="#071014" opacity="0.9"/>
       <text y="67" fill="#ffcf91">CLOUD HUB</text>
     </g>
-    <g transform="translate(720 114)">
+    <g transform="translate(750 112)">
       <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
       <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
-      <rect x="-45" y="37" width="90" height="18" rx="9" fill="#071014" opacity="0.88"/>
-      <text y="50">PLATFORM</text>
+      <rect x="-43" y="-9" width="86" height="18" rx="9" fill="#071014" opacity="0.9"/>
+      <text y="4">PLATFORM</text>
     </g>
-    <g transform="translate(720 166)">
+    <g transform="translate(750 166)">
       <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
       <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
-      <rect x="-45" y="37" width="90" height="18" rx="9" fill="#071014" opacity="0.88"/>
-      <text y="50">WORKFLOW</text>
+      <rect x="-45" y="-9" width="90" height="18" rx="9" fill="#071014" opacity="0.9"/>
+      <text y="4">WORKFLOW</text>
     </g>
-    <g transform="translate(720 218)">
+    <g transform="translate(750 220)">
       <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
       <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
-      <rect x="-21" y="37" width="42" height="18" rx="9" fill="#071014" opacity="0.88"/>
-      <text y="50">APP</text>
+      <rect x="-21" y="-9" width="42" height="18" rx="9" fill="#071014" opacity="0.9"/>
+      <text y="4">APP</text>
     </g>
-    <g transform="translate(824 138)">
+    <g transform="translate(850 138)">
       <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
       <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
-      <rect x="-22" y="27" width="44" height="16" rx="8" fill="#071014" opacity="0.9"/>
-      <text y="39" font-size="10">TEAM</text>
+      <rect x="-22" y="-7" width="44" height="14" rx="7" fill="#071014" opacity="0.9"/>
+      <text y="4" font-size="9">TEAM</text>
     </g>
-    <g transform="translate(824 166)">
+    <g transform="translate(850 166)">
       <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
       <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
-      <rect x="-22" y="27" width="44" height="16" rx="8" fill="#071014" opacity="0.9"/>
-      <text y="39" font-size="10">USER</text>
+      <rect x="-22" y="-7" width="44" height="14" rx="7" fill="#071014" opacity="0.9"/>
+      <text y="4" font-size="9">USER</text>
     </g>
-    <g transform="translate(824 194)">
+    <g transform="translate(850 194)">
       <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
       <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
-      <rect x="-25" y="27" width="50" height="16" rx="8" fill="#071014" opacity="0.9"/>
-      <text y="39" font-size="10">FIELD</text>
+      <rect x="-25" y="-7" width="50" height="14" rx="7" fill="#071014" opacity="0.9"/>
+      <text y="4" font-size="9">FIELD</text>
     </g>
   </g>
 
