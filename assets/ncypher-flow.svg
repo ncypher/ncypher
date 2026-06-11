@@ -41,7 +41,7 @@
   </g>
 
   <text x="450" y="48" text-anchor="middle" fill="#e7fffb" font-family="Consolas, Monaco, monospace" font-size="30" font-weight="700" letter-spacing="4">NCYPHER</text>
-  <text x="450" y="75" text-anchor="middle" fill="#00ffd1" font-family="Consolas, Monaco, monospace" font-size="13" letter-spacing="3">INTENT // AI // AUTOMATION // INTEGRATION</text>
+  <text x="450" y="75" text-anchor="middle" fill="#ffb86b" stroke="#071014" stroke-width="5" paint-order="stroke fill" font-family="Consolas, Monaco, monospace" font-size="13" font-weight="700" letter-spacing="3" filter="url(#glow)">INTENT // AI // AUTOMATION // INTEGRATION</text>
 
   <use href="#flowPath" fill="none" stroke="#062d2f" stroke-width="22" stroke-linecap="round"/>
   <use href="#flowPath" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
