@@ -1,21 +1,31 @@
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">ncypher animated data flow banner</title>
-  <desc id="desc">An animated cybernetic workflow diagram showing freewritten human ideas flowing through AI distillation, cloud workflows, platform bridges, and back to human teams.</desc>
+  <title id="title">ncypher hub and spoke workflow banner</title>
+  <desc id="desc">An animated hub and spoke diagram showing a human idea moving to AI collaboration, into a cloud solution fabric, then branching to platforms and human teams.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#071014"/>
-      <stop offset="0.46" stop-color="#0d1117"/>
+      <stop offset="0.48" stop-color="#0d1117"/>
       <stop offset="1" stop-color="#111b24"/>
     </linearGradient>
-    <linearGradient id="line" x1="90" y1="0" x2="810" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mainLine" x1="80" y1="0" x2="450" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#00ffd1" stop-opacity="0.2"/>
-      <stop offset="0.5" stop-color="#00ffd1" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#9cf6ff" stop-opacity="0.2"/>
+      <stop offset="0.55" stop-color="#00ffd1" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffb86b" stop-opacity="0.85"/>
     </linearGradient>
-    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+    <linearGradient id="branchLine" x1="430" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb86b" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#00ffd1" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#9cf6ff" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="cyanNode" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#e7fffb"/>
-      <stop offset="0.25" stop-color="#00ffd1"/>
-      <stop offset="1" stop-color="#00ffd1" stop-opacity="0.08"/>
+      <stop offset="0.22" stop-color="#00ffd1"/>
+      <stop offset="1" stop-color="#00ffd1" stop-opacity="0.09"/>
+    </radialGradient>
+    <radialGradient id="hubNode" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff5dd"/>
+      <stop offset="0.28" stop-color="#ffb86b"/>
+      <stop offset="1" stop-color="#ffb86b" stop-opacity="0.08"/>
     </radialGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -27,96 +37,139 @@
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#00ffd1" stroke-opacity="0.07" stroke-width="1"/>
     </pattern>
-    <path id="flowPath" d="M104 172 C210 112 300 126 382 156 S548 212 640 160 760 126 812 152"/>
+    <path id="mainPath" d="M88 136 H214 H340 H430"/>
+    <path id="branchTop" d="M430 136 C515 74 615 70 720 82"/>
+    <path id="branchMid" d="M430 136 C540 136 620 136 720 136"/>
+    <path id="branchBot" d="M430 136 C515 198 615 202 720 190"/>
+    <path id="teamTop" d="M720 82 C760 82 790 92 824 106"/>
+    <path id="teamMid" d="M720 136 C762 136 792 136 824 136"/>
+    <path id="teamBot" d="M720 190 C760 190 790 180 824 166"/>
   </defs>
 
   <rect width="900" height="260" rx="18" fill="url(#bg)"/>
   <rect width="900" height="260" rx="18" fill="url(#grid)"/>
   <rect x="1" y="1" width="898" height="258" rx="17" fill="none" stroke="#00ffd1" stroke-opacity="0.28"/>
 
-  <g opacity="0.5">
-    <text x="34" y="38" fill="#00ffd1" font-family="Consolas, Monaco, monospace" font-size="13">&gt; capturing freewritten signal</text>
-    <text x="34" y="58" fill="#7dfbe8" font-family="Consolas, Monaco, monospace" font-size="13" opacity="0.72">&gt; distilling intent into logic</text>
-    <text x="34" y="78" fill="#9cf6ff" font-family="Consolas, Monaco, monospace" font-size="13" opacity="0.54">&gt; routing work back to people</text>
+  <g opacity="0.56" font-family="Consolas, Monaco, monospace" font-size="13">
+    <text x="34" y="38" fill="#00ffd1">&gt; human observation captured</text>
+    <text x="34" y="58" fill="#7dfbe8" opacity="0.78">&gt; AI turns language into design</text>
+    <text x="34" y="78" fill="#9cf6ff" opacity="0.56">&gt; cloud fabric routes the solution</text>
   </g>
 
-  <text x="450" y="48" text-anchor="middle" fill="#e7fffb" font-family="Consolas, Monaco, monospace" font-size="30" font-weight="700" letter-spacing="4">NCYPHER</text>
-  <rect x="196" y="59" width="508" height="28" rx="14" fill="#071014" opacity="0.86" stroke="#ffb86b" stroke-opacity="0.28"/>
-  <text x="450" y="77" text-anchor="middle" fill="#ffb86b" font-family="Consolas, Monaco, monospace" font-size="11" font-weight="700" letter-spacing="1.2">HUMAN IDEAS -&gt; AI DISTILLATION -&gt; CLOUD WORKFLOWS -&gt; PEOPLE</text>
+  <text x="450" y="44" text-anchor="middle" fill="#e7fffb" font-family="Consolas, Monaco, monospace" font-size="30" font-weight="700" letter-spacing="4">NCYPHER</text>
+  <rect x="229" y="55" width="442" height="28" rx="14" fill="#071014" opacity="0.9" stroke="#ffb86b" stroke-opacity="0.32"/>
+  <text x="450" y="73" text-anchor="middle" fill="#ffb86b" font-family="Consolas, Monaco, monospace" font-size="11" font-weight="700" letter-spacing="1.2">IDEA -&gt; AI COLLABORATION -&gt; CLOUD HUB -&gt; HUMAN OUTCOMES</text>
 
-  <use href="#flowPath" fill="none" stroke="#062d2f" stroke-width="22" stroke-linecap="round"/>
-  <use href="#flowPath" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
-  <use href="#flowPath" fill="none" stroke="#e7fffb" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 18" opacity="0.65">
-    <animate attributeName="stroke-dashoffset" values="0;-120" dur="3.8s" repeatCount="indefinite"/>
-  </use>
+  <use href="#mainPath" fill="none" stroke="#062d2f" stroke-width="18" stroke-linecap="round"/>
+  <use href="#mainPath" fill="none" stroke="url(#mainLine)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  <use href="#branchTop" fill="none" stroke="#062d2f" stroke-width="16" stroke-linecap="round"/>
+  <use href="#branchMid" fill="none" stroke="#062d2f" stroke-width="16" stroke-linecap="round"/>
+  <use href="#branchBot" fill="none" stroke="#062d2f" stroke-width="16" stroke-linecap="round"/>
+  <use href="#teamTop" fill="none" stroke="#062d2f" stroke-width="12" stroke-linecap="round"/>
+  <use href="#teamMid" fill="none" stroke="#062d2f" stroke-width="12" stroke-linecap="round"/>
+  <use href="#teamBot" fill="none" stroke="#062d2f" stroke-width="12" stroke-linecap="round"/>
+  <use href="#branchTop" fill="none" stroke="url(#branchLine)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <use href="#branchMid" fill="none" stroke="url(#branchLine)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <use href="#branchBot" fill="none" stroke="url(#branchLine)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <use href="#teamTop" fill="none" stroke="#9cf6ff" stroke-opacity="0.62" stroke-width="2" stroke-linecap="round"/>
+  <use href="#teamMid" fill="none" stroke="#9cf6ff" stroke-opacity="0.62" stroke-width="2" stroke-linecap="round"/>
+  <use href="#teamBot" fill="none" stroke="#9cf6ff" stroke-opacity="0.62" stroke-width="2" stroke-linecap="round"/>
 
-  <g font-family="Consolas, Monaco, monospace" text-anchor="middle" font-size="12" fill="#dffcf8">
-    <g transform="translate(104 172)">
-      <circle r="31" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
-      <circle r="8" fill="url(#node)" filter="url(#glow)">
-        <animate attributeName="r" values="8;12;8" dur="2.6s" repeatCount="indefinite"/>
+  <g font-family="Consolas, Monaco, monospace" text-anchor="middle" font-size="12" font-weight="700" fill="#dffcf8">
+    <g transform="translate(88 136)">
+      <circle r="26" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.58"/>
+      <circle r="7" fill="url(#cyanNode)" filter="url(#glow)">
+        <animate attributeName="r" values="7;11;7" dur="2.8s" repeatCount="indefinite"/>
       </circle>
-      <text y="50">FREEWRITE</text>
+      <text y="44">IDEA</text>
     </g>
-    <g transform="translate(292 128)">
-      <circle r="29" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
-      <circle r="7" fill="url(#node)" filter="url(#glow)">
-        <animate attributeName="r" values="7;11;7" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+    <g transform="translate(214 136)">
+      <circle r="28" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.58"/>
+      <circle r="8" fill="url(#cyanNode)" filter="url(#glow)">
+        <animate attributeName="r" values="8;12;8" dur="2.8s" begin="0.35s" repeatCount="indefinite"/>
       </circle>
-      <text y="48">AI DISTILL</text>
+      <text y="46">AI</text>
     </g>
-    <g transform="translate(450 166)">
-      <circle r="34" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.6"/>
-      <circle r="9" fill="url(#node)" filter="url(#glow)">
-        <animate attributeName="r" values="9;13;9" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+    <g transform="translate(340 136)">
+      <circle r="28" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.58"/>
+      <circle r="8" fill="url(#cyanNode)" filter="url(#glow)">
+        <animate attributeName="r" values="8;12;8" dur="2.8s" begin="0.7s" repeatCount="indefinite"/>
       </circle>
-      <text y="54">CLOUD LOGIC</text>
+      <text y="46">DESIGN</text>
     </g>
-    <g transform="translate(628 158)">
-      <circle r="31" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
-      <circle r="8" fill="url(#node)" filter="url(#glow)">
-        <animate attributeName="r" values="8;12;8" dur="2.6s" begin="1.2s" repeatCount="indefinite"/>
+    <g transform="translate(430 136)">
+      <circle r="38" fill="#16100b" stroke="#ffb86b" stroke-opacity="0.72"/>
+      <circle r="12" fill="url(#hubNode)" filter="url(#glow)">
+        <animate attributeName="r" values="12;18;12" dur="2.4s" repeatCount="indefinite"/>
       </circle>
-      <text y="50">PLATFORM BRIDGE</text>
+      <text y="58" fill="#ffcf91">CLOUD HUB</text>
     </g>
-    <g transform="translate(812 152)">
-      <circle r="31" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.55"/>
-      <circle r="8" fill="url(#node)" filter="url(#glow)">
-        <animate attributeName="r" values="8;12;8" dur="2.6s" begin="1.6s" repeatCount="indefinite"/>
-      </circle>
-      <text y="50">HUMAN TEAMS</text>
+    <g transform="translate(720 82)">
+      <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
+      <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
+      <text y="42">PLATFORM</text>
+    </g>
+    <g transform="translate(720 136)">
+      <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
+      <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
+      <text y="42">WORKFLOW</text>
+    </g>
+    <g transform="translate(720 190)">
+      <circle r="24" fill="#061c20" stroke="#00ffd1" stroke-opacity="0.54"/>
+      <circle r="6" fill="url(#cyanNode)" filter="url(#glow)"/>
+      <text y="42">APP</text>
+    </g>
+    <g transform="translate(824 106)">
+      <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
+      <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
+      <text y="34" font-size="10">TEAM</text>
+    </g>
+    <g transform="translate(824 136)">
+      <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
+      <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
+      <text y="34" font-size="10">USER</text>
+    </g>
+    <g transform="translate(824 166)">
+      <circle r="18" fill="#071014" stroke="#9cf6ff" stroke-opacity="0.52"/>
+      <circle r="4" fill="#9cf6ff" filter="url(#glow)"/>
+      <text y="34" font-size="10">FIELD</text>
     </g>
   </g>
 
   <g filter="url(#glow)">
     <circle r="5" fill="#e7fffb">
-      <animateMotion dur="4.4s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#flowPath"/>
+      <animateMotion dur="3.4s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#mainPath"/>
       </animateMotion>
-      <animate attributeName="opacity" values="0;1;1;0" dur="4.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#ffb86b">
+      <animateMotion dur="3.1s" begin="0.45s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#branchTop"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;0.9;0" dur="3.1s" begin="0.45s" repeatCount="indefinite"/>
     </circle>
     <circle r="4" fill="#00ffd1">
-      <animateMotion dur="4.4s" begin="1.45s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#flowPath"/>
+      <animateMotion dur="3.1s" begin="1.15s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#branchMid"/>
       </animateMotion>
-      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="4.4s" begin="1.45s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0.9;0" dur="3.1s" begin="1.15s" repeatCount="indefinite"/>
     </circle>
-    <circle r="3" fill="#9cf6ff">
-      <animateMotion dur="4.4s" begin="2.9s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#flowPath"/>
+    <circle r="4" fill="#9cf6ff">
+      <animateMotion dur="3.1s" begin="1.85s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#branchBot"/>
       </animateMotion>
-      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="4.4s" begin="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0.9;0" dur="3.1s" begin="1.85s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <g opacity="0.42" font-family="Consolas, Monaco, monospace" font-size="11" fill="#00ffd1">
-    <text x="46" y="242">CONCEPT</text>
-    <text x="150" y="242">PROMPT</text>
-    <text x="260" y="242">SCHEMA</text>
-    <text x="370" y="242">API</text>
-    <text x="485" y="242">CLOUD</text>
-    <text x="620" y="242">DEPLOYMENT</text>
-    <text x="760" y="242">FEEDBACK LOOP</text>
+    <text x="44" y="232">OBSERVE</text>
+    <text x="168" y="232">PROMPT</text>
+    <text x="292" y="232">DISTILL</text>
+    <text x="405" y="232" fill="#ffb86b">SOLUTION FABRIC</text>
+    <text x="628" y="232">DISTRIBUTE</text>
+    <text x="764" y="232">FEEDBACK</text>
   </g>
 
   <rect x="0" y="0" width="900" height="260" rx="18" fill="#ffffff" opacity="0.04">
