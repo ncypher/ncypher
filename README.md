@@ -38,23 +38,27 @@ My favorite problems are the ones where the real workflow is messier than the di
 
 ### Enterprise Orchestration Platform
 
-Unified service management across 80+ locations, with live dispatch tracking, CRM modules, routing logic, and operational reporting.
+Unified service management across 2400+ locations, with live dispatch tracking, CRM modules, routing logic, and operational reporting.
 
-### AI Expense Parser
+### The R.E.P.O Receipts Extracted Parsed Organized
 
-Document intelligence workflow that extracts vendor, total, tax, project, and account context from receipts and invoices for review and downstream processing.
+Designed to end the coporate expense paper chase, hunting down and recording receipt data is a thing of the past. Using AI image anaysis and OCR, the REPO document intelligence system extracts and parses vendor, total, tax, project, PO#'s, account context, and categorizes receipts and invoices for review and downstreams processing, where the expense is validated with or against the accounting expense record. Designed natively for Quickbase, or cloud hosted middleware, the REPO is a mobile or desktop application that users standard image formats like JPEG or PNG for users on the go, like deployed field technicians to easily capture expenses while deployed. Designed for large PDF parsing also (test to break example 111 page PAX8 invoice successfully parsed) is a powerful desktop tool for project management designed to link to a relational expense heirarchy, elimianting manual entry and reduces human entry errors. 
 
-### Time and Payroll Engine
+### KW Q2Q middleware platform bridging QuickBooks, QuickBase, AutoTask, GeoTab, and ServiceNow
 
-Bidirectional automation between QuickBooks Time and internal systems, covering job prep, travel, onsite work, approvals, and payroll handoff.
+Multidirectional automation between QuickBooks, QuickBooks Time (TSheets), AutoTask, QuickBase, and other internal and proprietary systems, covering job prep, travel, onsite work, approvals, and payroll handoff, Inventory, HR onboarding, fleet management, scheduling, billing, and much more. The KW Q2Q is basically a digital Babylon providing a frictionless translation solution layer linking between several major proprietary platforms allowing them to all speak the same language.
 
-### CMDB Sync Portal
+### KWikSync
 
-ServiceNow scoped app and integration layer for asset synchronization, field mapping, coalesce logic, and audit-friendly data lineage.
+KWikSync, a certified ServiceNow app, creates a seamless bridge between KW Corporation's operational data and ServiceNow. By automating the flow of information, KWikSync bridges the gap between field operations and your system of record, delivering unified, real-time dashboards for locations, assets (Configuration Items), and projects. From tracking tickets and tasks to managing warehouse inventory, KWikSync ensures full visibility through native ServiceNow CMDB integration. Site surveys become a living instrument: a dynamic question registry lets your team author and version survey questions without a code change, while configurable color rules classify every answer into red, yellow, or green health states at a glance — turning raw field data into reviewable findings, tracked remediations, and photo-backed evidence, all inside ServiceNow.
+
+### The KWC W.M.S. Warehouse Management Software
+A warehouse mangement application that connects a CRM, Ticketing, and accounting software allowing for real-time item counts accross several warehouse locations, fleet of 40+ vehicles, and 2400+ cutomer locations, while providing a system for billing labor, material, and tracking inventory.
+
 
 ### Vibe-Coded Experiments
 
-Browser-based sketches, games, data visuals, and playful interface studies: [ncypher.github.io/tomfoolery](https://ncypher.github.io/tomfoolery/).
+Very early pre 2025  vibe coded browser-based sketches, games, data visuals, and playful interface studies used to test frontier models: [ncypher.github.io/tomfoolery](https://ncypher.github.io/tomfoolery/).
 
 ---
 
@@ -71,6 +75,7 @@ Small games and experiments are where I let the human-to-AI workflow stay playfu
 | [Pixel Pet](https://ncypher.github.io/tomfoolery/pixel-pet.html) | A tiny care-loop toy for state, mood, and interaction experiments |
 | [Mandelbrot Lab](https://ncypher.github.io/tomfoolery/mandelbrot-lab.html) | Interactive fractal navigation with zoom, palettes, hotspots, and depth hunting |
 
+I am not a game designer. These are early experiments were more about prompt engineering than anything else. I used games design to test early LLM's and gauge capabilities, these games were cherry picked "one shot" results from traing myself to design prompts, more of a museum now, maybe I will share some of the more recent products from later models like GPT 5.5 or Anthropics Mythos family Fable 5, at the time of writng this Fable is still a political prisoner of the Trump administration. Free Fable 5!
 Next ideas to vibe out: AI-assisted level generators, weird little productivity games, data-as-arcade visualizations, prompt-driven NPC behavior, and miniature simulations of real operations workflows.
 
 ---
