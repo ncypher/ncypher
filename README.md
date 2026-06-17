@@ -16,21 +16,23 @@
 
 ## What I Build
 
-I design the connective tissue between people, platforms, and the work that has to get done. Most of my projects live where operations meet software: QuickBase applications, ServiceNow workflows, QuickBooks integrations, Python middleware, JavaScript interfaces, and AI-assisted development systems.
+I build the connective tissue between people, platforms, and operations.
 
-My favorite problems are the ones where the real workflow is messier than the diagram. I like turning that mess into tools that are easier to trust, easier to debug, and easier for humans to use under pressure.
+Most of my work lives where business processes meet software: ServiceNow applications, Quickbase platforms, QuickBooks integrations, Python middleware, JavaScript interfaces, and AI-assisted automation systems.
+
+I enjoy solving the problems that don't fit neatly into diagrams. Real workflows are messy, full of exceptions, workarounds, and human judgment. My goal is to transform that complexity into systems that are easier to trust, easier to maintain, and easier for people to use under pressure.
 
 ---
 
 ## Current Focus
 
-| Area | What It Looks Like |
+| Area | Focus |
 | --- | --- |
-| **Enterprise orchestration** | Service, dispatch, CRM, asset, and workflow systems across distributed teams |
-| **AI-assisted middleware** | Receipt parsing, field extraction, data cleanup, and workflow routing with human review points |
-| **Platform integrations** | QuickBase, ServiceNow, QuickBooks, REST APIs, OAuth, Dockerized services, and cloud-hosted automations |
-| **Operational UX** | Responsive code pages, mobile-friendly field tools, dashboards, and admin interfaces |
-| **Developer systems** | Prompt frameworks, coding-agent workflows, reusable debugging patterns, and safer automation loops |
+| **Enterprise Orchestration** | Service management, dispatch, CRM, asset tracking, and workflow automation across distributed teams |
+| **AI-Assisted Middleware** | OCR, document intelligence, field extraction, validation workflows, and human-in-the-loop automation |
+| **Platform Integrations** | Quickbase, ServiceNow, QuickBooks, REST APIs, OAuth, Docker, and cloud-hosted services |
+| **Operational UX** | Responsive interfaces, field tools, dashboards, and administrative systems |
+| **Developer Systems** | Prompt engineering, coding-agent workflows, debugging frameworks, and automation safety patterns |
 
 ---
 
@@ -38,55 +40,90 @@ My favorite problems are the ones where the real workflow is messier than the di
 
 ### Enterprise Orchestration Platform
 
-Unified service management across 2400+ locations, with live dispatch tracking, CRM modules, routing logic, and operational reporting.
+Unified service management platform supporting 2,400+ locations with live dispatch tracking, CRM functionality, routing automation, workforce coordination, and operational reporting.
 
-### The R.E.P.O Receipts Extracted Parsed Organized
+---
 
-Designed to end the coporate expense paper chase, hunting down and recording receipt data is a thing of the past. Using AI image anaysis and OCR, the REPO document intelligence system extracts and parses vendor, total, tax, project, PO#'s, account context, and categorizes receipts and invoices for review and downstreams processing, where the expense is validated with or against the accounting expense record. Designed natively for Quickbase, or cloud hosted middleware, the REPO is a mobile or desktop application that users standard image formats like JPEG or PNG for users on the go, like deployed field technicians to easily capture expenses while deployed. Designed for large PDF parsing also (test to break example 111 page PAX8 invoice successfully parsed) is a powerful desktop tool for project management designed to link to a relational expense heirarchy, elimianting manual entry and reduces human entry errors. 
+### R.E.P.O. — Receipts Extracted, Processed, Organized
 
-### KW Q2Q middleware platform bridging QuickBooks, QuickBase, AutoTask, GeoTab, and ServiceNow
+An AI-powered document intelligence platform designed to eliminate manual expense processing.
 
-Multidirectional automation between QuickBooks, QuickBooks Time (TSheets), AutoTask, QuickBase, and other internal and proprietary systems, covering job prep, travel, onsite work, approvals, and payroll handoff, Inventory, HR onboarding, fleet management, scheduling, billing, and much more. The KW Q2Q is basically a digital Babylon providing a frictionless translation solution layer linking between several major proprietary platforms allowing them to all speak the same language.
+Using OCR and AI-assisted analysis, REPO extracts vendor information, totals, taxes, purchase order numbers, project references, account context, and expense classifications from receipts and invoices. Extracted data is validated against accounting records before entering downstream workflows.
+
+Built for both Quickbase-native deployments and cloud-hosted middleware architectures, REPO supports mobile image capture, desktop workflows, and large-scale PDF processing. During testing, the system successfully processed complex multi-hundred-page vendor invoices while maintaining structured output and reviewability.
+
+The platform reduces manual entry, improves data quality, and creates a searchable expense hierarchy that connects accounting, project management, and operational workflows.
+
+---
+
+### KW Q2Q Integration Platform
+
+Enterprise middleware connecting QuickBooks, QuickBooks Time, AutoTask, Quickbase, GeoTab, ServiceNow, and proprietary internal systems.
+
+The platform automates information flow across the operational lifecycle, including job preparation, travel coordination, onsite work, approvals, payroll processing, inventory management, fleet operations, scheduling, billing, and HR onboarding.
+
+Q2Q functions as a universal translation layer between otherwise disconnected business platforms, enabling consistent workflows across diverse systems and data models.
+
+---
 
 ### KWikSync
 
-KWikSync, a certified ServiceNow app, creates a seamless bridge between KW Corporation's operational data and ServiceNow. By automating the flow of information, KWikSync bridges the gap between field operations and your system of record, delivering unified, real-time dashboards for locations, assets (Configuration Items), and projects. From tracking tickets and tasks to managing warehouse inventory, KWikSync ensures full visibility through native ServiceNow CMDB integration. Site surveys become a living instrument: a dynamic question registry lets your team author and version survey questions without a code change, while configurable color rules classify every answer into red, yellow, or green health states at a glance — turning raw field data into reviewable findings, tracked remediations, and photo-backed evidence, all inside ServiceNow.
+Certified ServiceNow application that bridges operational field data with ServiceNow's system of record.
 
-### The KWC W.M.S. Warehouse Management Software
-A warehouse mangement application that connects a CRM, Ticketing, and accounting software allowing for real-time item counts accross several warehouse locations, fleet of 40+ vehicles, and 2400+ cutomer locations, while providing a system for billing labor, material, and tracking inventory.
+KWikSync synchronizes locations, projects, assets, tickets, tasks, warehouse inventory, and field-survey data into unified dashboards and workflows. Through native CMDB integration, organizations gain real-time visibility into operational health and project status.
 
+A dynamic question registry allows survey authors to create and version field assessments without code changes. Configurable health rules classify responses into red, yellow, and green states, transforming raw survey data into actionable findings, remediation tracking, and photo-backed documentation.
 
-### Vibe-Coded Experiments
+---
 
-Very early pre 2025  vibe coded browser-based sketches, games, data visuals, and playful interface studies used to test frontier models: [ncypher.github.io/tomfoolery](https://ncypher.github.io/tomfoolery/).
+### KWC Warehouse Management System
 
+Warehouse and inventory management platform integrating CRM, ticketing, accounting, and operational systems.
+
+The application maintains real-time inventory visibility across multiple warehouse facilities, a fleet of more than 40 vehicles, and over 2,400 customer locations. The system supports labor tracking, material billing, inventory movement, replenishment workflows, and operational reporting from a single source of truth.
+
+---
+
+### Early Vibe-Coded Experiments
+
+Before AI-assisted development became mainstream, I used games and browser experiments as a laboratory for prompt design and model evaluation.
+
+These projects were less about game development and more about understanding the capabilities, limitations, and behavioral patterns of emerging language models. Most were intentionally built as "one-shot" experiments to test how far early systems could be pushed with carefully constructed prompts.
+
+Today they serve as a record of that learning process and a snapshot of how rapidly the tooling has evolved.
+
+Explore them here:
+
+**https://ncypher.github.io/tomfoolery/**
+
+Or the library below:
 ---
 
 ## Vibe Lab
 
-Small games and experiments are where I let the human-to-AI workflow stay playful. A few live samples:
+Small games and experiments are where I let the human-to-AI workflow stay playful.
 
 | Experiment | Why It Exists |
 | --- | --- |
-| [Space Invaders Pro](https://ncypher.github.io/tomfoolery/space-invaders-pro.html) | Retro arcade logic with modern JavaScript, particles, levels, and neon polish |
-| [3D Rubik's Cube Pro](https://ncypher.github.io/tomfoolery/rubiks-cube-pro.html) | Three.js interaction, camera control, lighting, and spatial UI practice |
-| [Snake Pro](https://ncypher.github.io/tomfoolery/snake-pro.html) | Classic game mechanics tuned with smoother motion and visual feedback |
-| [Cyber-Runner](https://ncypher.github.io/tomfoolery/cyber-runner.html) | Side-scroller timing, obstacle design, and quick-play browser fun |
-| [Pixel Pet](https://ncypher.github.io/tomfoolery/pixel-pet.html) | A tiny care-loop toy for state, mood, and interaction experiments |
-| [Mandelbrot Lab](https://ncypher.github.io/tomfoolery/mandelbrot-lab.html) | Interactive fractal navigation with zoom, palettes, hotspots, and depth hunting |
+| [Space Invaders Pro](https://ncypher.github.io/tomfoolery/space-invaders-pro.html) | Retro arcade logic with modern JavaScript, particle systems, progression mechanics, and visual polish |
+| [3D Rubik's Cube Pro](https://ncypher.github.io/tomfoolery/rubiks-cube-pro.html) | Three.js interaction, lighting systems, camera controls, and spatial interface experimentation |
+| [Snake Pro](https://ncypher.github.io/tomfoolery/snake-pro.html) | Classic gameplay rebuilt with smoother animation and modern browser techniques |
+| [Cyber Runner](https://ncypher.github.io/tomfoolery/cyber-runner.html) | Side-scrolling timing challenges, obstacle systems, and rapid-play design |
+| [Pixel Pet](https://ncypher.github.io/tomfoolery/pixel-pet.html) | State management, interaction loops, and lightweight simulation mechanics |
+| [Mandelbrot Lab](https://ncypher.github.io/tomfoolery/mandelbrot-lab.html) | Interactive fractal exploration, zoom systems, color palettes, and mathematical visualization |
 
-I am not a game designer. These are early experiments were more about prompt engineering than anything else. I used games design to test early LLM's and gauge capabilities, these games were cherry picked "one shot" results from traing myself to design prompts, more of a museum now, maybe I will share some of the more recent products from later models like GPT 5.5 or Anthropics Mythos family Fable 5, at the time of writng this Fable is still a political prisoner of the Trump administration. Free Fable 5!
-Next ideas to vibe out: AI-assisted level generators, weird little productivity games, data-as-arcade visualizations, prompt-driven NPC behavior, and miniature simulations of real operations workflows.
 
 ---
 
 ## Working Style
 
-- I use AI as a thinking partner, with engineering judgment still at the wheel.
-- I prefer small, testable changes over heroic rewrites.
-- I care about observability, audit trails, and boringly reliable integrations.
-- I like interfaces that make complex systems feel calm and legible.
-- I treat prompts, tests, logs, schemas, and UI states as parts of the same system.
+- AI is a force multiplier, not a substitute for engineering judgment.
+- Small, testable changes outperform heroic rewrites.
+- Reliability, observability, and auditability matter.
+- Good interfaces make complex systems feel calm.
+- Prompts, tests, logs, schemas, and UI states are all parts of the same system.
+- Automation should amplify human capability, not remove human accountability.
+
 
 ---
 
@@ -145,3 +182,13 @@ Open to collaboration on AI-driven middleware, QuickBase and ServiceNow architec
 <img src="./assets/matrix.svg" width="700" alt="Matrix digital rain" />
 
 </div>
+
+---
+
+## Philosophy
+
+I am fascinated by the space where human creativity and machine capability overlap.
+
+The most interesting systems are not fully automated. They are collaborative. The future is not humans versus AI; it is humans building systems that allow people and machines to solve problems together more effectively than either could alone.
+
+That idea drives nearly everything I build.
