@@ -2,66 +2,107 @@
 
 # Tom Harwood / ncypher
 
-### Programming is becoming a form of exploratory conversation.
+### Designing environments where ideas can evolve into software.
 
-**I turn human intent into working systems by orchestrating people, models, evidence, and code.**
+**I work across people, platforms, models, evidence, and code to turn ambiguous intent into systems that can be tested, challenged, and improved.**
 
-<img src="./assets/polycentric-orchestra.svg" width="960" alt="Animated polycentric orchestration system with a human conductor, specialized agents, disagreement, appeals, overrides, and runtime feedback" />
+<img src="./assets/polycentric-orchestra.svg" width="960" alt="Animated orchestration system showing a human conductor, specialized agents, disagreement, appeals, runtime evidence, and feedback" />
 
 [![GitHub followers](https://img.shields.io/github/followers/ncypher?style=social)](https://github.com/ncypher)
 [![X Follow](https://img.shields.io/twitter/follow/TomHarwood75?style=social)](https://x.com/TomHarwood75)
-[![Conversational Artifacts](https://img.shields.io/badge/Conversational_Artifacts-Enter_the_Lab-00FFD1?style=flat-square)](https://ncypher.github.io/tomfoolery/)
+[![Conversational Artifacts](https://img.shields.io/badge/Conversational_Artifacts-Enter_the_Notebook-00FFD1?style=flat-square)](https://ncypher.github.io/tomfoolery/)
 
 </div>
 
 ---
 
+## What is this place?
+
+This is an active research notebook documenting how ideas become software.
+
+Some entries become code. Some become diagrams, simulations, interfaces, or field notes. Some fail. Some expose contradictions. Some change my mind.
+
+The finished application matters, but the path that produced it matters more.
+
+> **Software is not the only product here. Understanding is. The software is the artifact left behind by the conversation.**
+
+---
+
 ## The Work
 
-I build software in the untidy space where operations, people, platforms, and machine intelligence meet.
+I build software in the untidy space where real operations meet technology.
 
 My work spans ServiceNow applications, Quickbase systems, Python middleware, JavaScript interfaces, accounting integrations, document intelligence, workflow automation, and multi-model development environments.
 
 The common thread is translation:
 
-> human intent → shared language → architecture → agents and tools → tested behavior
+> human intent ⇄ shared language ⇄ architecture ⇄ tools and agents ⇄ runtime evidence
 
 **Software increasingly begins as conversation. Source code is no longer always the first formal representation of an idea; it is often the compiled form of an extended dialogue.**
 
 ---
 
-## Polycentric Cybernetic Orchestration
+## A Cognitive Ecology
 
-That is the best phrase I currently have for the way I work.
+I do not use one model as a universal assistant.
 
-It is **polycentric** because authority is distributed across several decision centers rather than entrusted to one model. It is **cybernetic** because outputs return as feedback and change the next action. It is **orchestration** because the human maintains direction, coherence, boundaries, and final responsibility while specialized agents perform different parts of the work.
+I work across an ecosystem of tools with different strengths, failure modes, and roles:
 
-The system behaves less like a single assistant and more like a federation:
-
-| Function | Responsibility |
+| Tool or environment | Typical role in the ecology |
 | --- | --- |
-| **Legislative** | Define requirements, constraints, schemas, acceptance criteria, and proposed changes |
-| **Executive** | Build, transform, integrate, run, and report what happened |
-| **Judicial** | Test claims, inspect evidence, interpret failures, reject assumptions, and overrule weak conclusions |
-| **Human conductor** | Set purpose, distribute trust, resolve ambiguity, protect coherence, and accept the final result |
-| **Runtime** | Provide the evidence none of the participants can negotiate away |
+| **ChatGPT** | Exploration, systems thinking, artifact design, synthesis, reframing, and conversational development |
+| **Claude** | Prose refinement, critique, alternative reasoning, careful editing, and second-pass review |
+| **Gemini** | Google-native workflows, broad exploration, multimodal work, and another independent perspective |
+| **NotebookLM** | Source-grounded synthesis, research packets, structured context, and long-form material organized around a corpus |
+| **VS Code agents** | Implementation, debugging, iteration, repository work, and runtime-facing development |
+| **Grok** | Experimental comparison, edge-case exploration, and deliberately different framing |
+| **Image and music generators** | Visual and sonic prototyping, atmosphere, identity, and non-textual forms of thought |
+| **Runtime, tests, and users** | Evidence that none of the models can negotiate away |
 
-These are roles, not permanent ranks. The builder may challenge the specification. A test may invalidate the judge. A critic may be overruled by runtime evidence. A minority report may survive when the majority is confidently wrong.
+The interesting question is not **Which model is best?**
 
-Disagreement is not treated as failure. It is treated as information.
+It is:
+
+> **How do different tools, perspectives, and forms of evidence help one another notice what any single participant might miss?**
+
+This is less like one assistant and more like a research expedition. Each participant carries different instruments. NotebookLM carries the archive. VS Code carries the tools. Claude edits the field notes. ChatGPT sketches hypotheses on the wall. Gemini brings another map. Grok asks the strange question. Runtime is the weather.
+
+Reality is the mountain.
+
+---
+
+## An Emerging Practice
+
+I am new to cybernetics as a formal tradition, but not to the patterns it describes.
+
+I arrived here through practice: building systems with feedback, watching authority move between people and tools, separating generation from review, preserving disagreement, and learning that a system becomes more trustworthy when it can notice and correct its own errors.
+
+I am not presenting a finished doctrine. I am documenting an emerging practice.
+
+A useful working description is:
+
+### **Conversational cybernetics through distributed judgment**
+
+The system behaves less like a pipeline and more like a knot:
 
 ```text
-intent
-  ↓
-proposal ⇄ implementation ⇄ review
-  ↑             ↓             ↑
-constraints   runtime       appeal
-  └──────── feedback ─────────┘
-             ↓
-        human acceptance
+                         constraints
+                      ↙       ↓       ↘
+intuition ⇄ conversation ⇄ proposal ⇄ implementation
+     ↑           ↖          ↕          ↘
+     │              disagreement       runtime
+     │                 ↕                ↕
+     └── revised intent ⇄ review ⇄ evidence
+                 ↖          ↓          ↗
+                    human acceptance
+                         for now
 ```
 
-This is closer to a professional race team than a prompt box: several specialists work at speed, but the telemetry, pit wall, driver, engineers, and track conditions continually correct one another.
+The process is iterative, recursive, and sometimes messy.
+
+The builder may challenge the requirement. A critic may be overruled by evidence. A test may invalidate the judge. A minority report may survive when the majority is confidently wrong.
+
+**Disagreement is not treated as failure. It is treated as information.**
 
 ---
 
@@ -104,35 +145,69 @@ A distributed inventory system spanning warehouses, more than 40 vehicles, and t
 
 This began as a collection of browser experiments. It is becoming a living code journal about the changing boundary between language, thought, and software.
 
-Some artifacts began with a carefully shaped prompt. Others moved through GPT, Claude, Gemini, Grok, editors, browser tools, and coding agents. One system proposed. Another criticized. Another repaired a visual defect or exposed a hidden assumption. Tests and runtime behavior settled arguments that language alone could not.
+Some artifacts began with a carefully shaped prompt. Others moved through ChatGPT, Claude, Gemini, NotebookLM, Grok, editors, browser tools, image generators, music generators, and coding agents.
 
-The result was rarely the product of one model. It was an alloy created through collaboration, disagreement, translation, and evidence.
+One system proposed. Another criticized. Another repaired a visual defect or exposed a hidden assumption. Tests and runtime behavior settled arguments that language alone could not.
+
+The result was rarely the product of one model. It was an alloy created through collaboration, disagreement, translation, evidence, and time.
 
 <div align="center">
 
-### A thought → a sketch → an artifact
+### A thought → a sketch → an artifact → a field report
 
 ### [Enter Conversational Artifacts →](https://ncypher.github.io/tomfoolery/)
 
 </div>
 
+### Rooms in the notebook
+
+- **Field Notes** — observations, contradictions, and things reality taught me
+- **Thought Experiments** — interactive ideas about feedback, governance, emergence, and distributed intelligence
+- **Living Systems** — gardens, watersheds, neighborhoods, sensors, ecology, and delayed consequences
+- **Software Sketches** — small executable ideas with deliberately narrow scope
+- **Research Journal** — records of how the process changed my understanding
+
+### Current and emerging artifacts
+
 | Artifact | What It Makes Visible |
 | --- | --- |
-| **AI Orchestra** | Specialized agents, concentrated versus distributed trust, review loops, and runtime evidence |
+| **AI Orchestra** | Specialized roles, distributed trust, critique, runtime evidence, and human direction |
+| **Feedback Knot** | Nonlinear development, appeals, dissent, reopened questions, and provisional acceptance |
 | **Mandelbrot Lab** | Emergence, recursive structure, mathematical exploration, and the limits of direct prediction |
-| **Space Invaders** | Game loops, rendering, particles, state transitions, and iterative model refinement |
-| **3D Rubik's Cube** | Spatial reasoning, transforms, lighting, cameras, interaction, and model handoffs |
-| **Snake** | State, timing, feedback, animation, and responsive control |
-| **Cyber Runner** | Pacing, obstacle systems, environmental response, and continuous adjustment |
-| **Pixel Pet — Archive** | Persistent state and simulation, preserved honestly as an unfinished experiment |
+| **The Cognitive Ecology** | Intelligence emerging from relationships among people, tools, evidence, and time |
+| **The Vibe-Coded Spaghetti Monster** | Patched-together prototypes, hidden dependencies, accidental architecture, and load-bearing ugliness |
+| **Distributed Watershed** | Environmental sensing as a neighborhood-scale nervous system |
+| **Cybernetic Garden** | Delayed consequences, adaptive behavior, and feedback made tangible |
 
-The next artifacts move beyond games into **interactive thought experiments**:
+The early browser games remain preserved as evidence of the process. They are not the destination. They are the fossil layer.
 
-- feedback systems that stabilize, oscillate, or collapse
-- environmental sensor networks that behave like distributed nervous systems
-- agent federations that debate, appeal, verify, and preserve dissent
-- cybernetic gardens shaped by delayed consequences
-- small visual systems where people experience emergence before reading its definition
+---
+
+## A Field Note Format
+
+Each artifact can begin with a small record:
+
+```text
+Field Note 012
+
+Observation
+Programming is becoming a form of exploratory conversation.
+
+Question
+What happens if disagreement becomes part of the software instead of something to eliminate?
+
+Artifact
+Feedback Knot
+
+Status
+Still observing.
+```
+
+Not complete.
+
+Not final.
+
+**Still observing.**
 
 ---
 
@@ -141,15 +216,16 @@ The next artifacts move beyond games into **interactive thought experiments**:
 - No single model receives the entire trust circle.
 - Generation, criticism, verification, and acceptance remain distinct responsibilities.
 - Confidence is not evidence.
-- Disagreement should be visible rather than silently averaged away.
 - Runtime behavior outranks persuasive explanation.
+- Disagreement should remain visible rather than being silently averaged away.
+- Some complexity is accidental. Some complexity is historical adaptation.
 - Small, observable changes outperform heroic rewrites.
 - Good interfaces make complex systems feel calm.
 - Automation should expand human capability without dissolving human accountability.
 
 ---
 
-## Tools in the Pit
+## Tools in the Expedition
 
 <div align="center">
 
@@ -161,6 +237,8 @@ The next artifacts move beyond games into **interactive thought experiments**:
 ![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![NotebookLM](https://img.shields.io/badge/NotebookLM-Research_Notebook-0F9D58?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
@@ -171,13 +249,15 @@ The next artifacts move beyond games into **interactive thought experiments**:
 
 What happens when natural language becomes a genuine development medium?
 
-How much independent agency can a human safely coordinate without losing comprehension, accountability, or energy?
+Can intelligence emerge from the relationships among people, models, tools, evidence, and time rather than residing in any one participant?
+
+How much independent agency can a human coordinate without losing comprehension, accountability, or energy?
 
 Can systems preserve minority reports and productive disagreement instead of manufacturing false consensus?
 
 Can environmental sensing become a distributed nervous system for a neighborhood, watershed, or city?
 
-Can a small interactive artifact teach cybernetics by letting someone feel a feedback loop before naming it?
+Can a small interactive artifact teach a systems concept by letting someone feel it before naming it?
 
 ---
 
