@@ -2,193 +2,275 @@
 
 # Tom Harwood / ncypher
 
-**AI solutions architect building practical automation, resilient integrations, and human-centered tools.**
+### Designing environments where ideas can evolve into software.
 
-<img src="./assets/ncypher-flow.svg" width="900" alt="Animated ncypher data-flow banner" />
+**I work across people, platforms, models, evidence, and code to turn ambiguous intent into systems that can be tested, challenged, and improved.**
+
+<img src="./assets/polycentric-orchestra.svg" width="960" alt="Animated orchestration system showing a human conductor, specialized agents, disagreement, appeals, runtime evidence, and feedback" />
 
 [![GitHub followers](https://img.shields.io/github/followers/ncypher?style=social)](https://github.com/ncypher)
 [![X Follow](https://img.shields.io/twitter/follow/TomHarwood75?style=social)](https://x.com/TomHarwood75)
-[![Experiments](https://img.shields.io/badge/Experiments-Vibe_Coded-00FFD1?style=flat-square)](https://ncypher.github.io/tomfoolery/)
+[![Conversational Artifacts](https://img.shields.io/badge/Conversational_Artifacts-Enter_the_Notebook-00FFD1?style=flat-square)](https://ncypher.github.io/tomfoolery/)
 
 </div>
 
 ---
 
-## What I Build
+## What is this place?
 
-I build the connective tissue between people, platforms, and operations.
+This is an active research notebook documenting how ideas become software.
 
-Most of my work lives where business processes meet software: ServiceNow applications, Quickbase platforms, QuickBooks integrations, Python middleware, JavaScript interfaces, and AI-assisted automation systems.
+Some entries become code. Some become diagrams, simulations, interfaces, or field notes. Some fail. Some expose contradictions. Some change my mind.
 
-I enjoy solving the problems that don't fit neatly into diagrams. Real workflows are messy, full of exceptions, workarounds, and human judgment. My goal is to transform that complexity into systems that are easier to trust, easier to maintain, and easier for people to use under pressure.
+The finished application matters, but the path that produced it matters more.
+
+> **Software is not the only product here. Understanding is. The software is the artifact left behind by the conversation.**
 
 ---
 
-## Current Focus
+## The Work
 
-| Area | Focus |
+I build software in the untidy space where real operations meet technology.
+
+My work spans ServiceNow applications, Quickbase systems, Python middleware, JavaScript interfaces, accounting integrations, document intelligence, workflow automation, and multi-model development environments.
+
+The common thread is translation:
+
+> human intent ⇄ shared language ⇄ architecture ⇄ tools and agents ⇄ runtime evidence
+
+**Software increasingly begins as conversation. Source code is no longer always the first formal representation of an idea; it is often the compiled form of an extended dialogue.**
+
+---
+
+## A Cognitive Ecology
+
+I do not use one model as a universal assistant.
+
+I work across an ecosystem of tools with different strengths, failure modes, and roles:
+
+| Tool or environment | Typical role in the ecology |
 | --- | --- |
-| **Enterprise Orchestration** | Service management, dispatch, CRM, asset tracking, and workflow automation across distributed teams |
-| **AI-Assisted Middleware** | OCR, document intelligence, field extraction, validation workflows, and human-in-the-loop automation |
-| **Platform Integrations** | Quickbase, ServiceNow, QuickBooks, REST APIs, OAuth, Docker, and cloud-hosted services |
-| **Operational UX** | Responsive interfaces, field tools, dashboards, and administrative systems |
-| **Developer Systems** | Prompt engineering, coding-agent workflows, debugging frameworks, and automation safety patterns |
+| **ChatGPT** | Exploration, systems thinking, artifact design, synthesis, reframing, and conversational development |
+| **Claude** | Prose refinement, critique, alternative reasoning, careful editing, and second-pass review |
+| **Gemini** | Google-native workflows, broad exploration, multimodal work, and another independent perspective |
+| **NotebookLM** | Source-grounded synthesis, research packets, structured context, and long-form material organized around a corpus |
+| **VS Code agents** | Implementation, debugging, iteration, repository work, and runtime-facing development |
+| **Grok** | Experimental comparison, edge-case exploration, and deliberately different framing |
+| **Image and music generators** | Visual and sonic prototyping, atmosphere, identity, and non-textual forms of thought |
+| **Runtime, tests, and users** | Evidence that none of the models can negotiate away |
+
+The interesting question is not **Which model is best?**
+
+It is:
+
+> **How do different tools, perspectives, and forms of evidence help one another notice what any single participant might miss?**
+
+This is less like one assistant and more like a research expedition. Each participant carries different instruments. NotebookLM carries the archive. VS Code carries the tools. Claude edits the field notes. ChatGPT sketches hypotheses on the wall. Gemini brings another map. Grok asks the strange question. Runtime is the weather.
+
+Reality is the mountain.
 
 ---
 
-## Selected Work
+## An Emerging Practice
 
-### Enterprise Orchestration Platform
+I am new to cybernetics as a formal tradition, but not to the patterns it describes.
 
-Unified service management platform supporting 2,400+ locations with live dispatch tracking, CRM functionality, routing automation, workforce coordination, and operational reporting.
+I arrived here through practice: building systems with feedback, watching authority move between people and tools, separating generation from review, preserving disagreement, and learning that a system becomes more trustworthy when it can notice and correct its own errors.
+
+I am not presenting a finished doctrine. I am documenting an emerging practice.
+
+A useful working description is:
+
+### **Conversational cybernetics through distributed judgment**
+
+The system behaves less like a pipeline and more like a knot:
+
+```text
+                         constraints
+                      ↙       ↓       ↘
+intuition ⇄ conversation ⇄ proposal ⇄ implementation
+     ↑           ↖          ↕          ↘
+     │              disagreement       runtime
+     │                 ↕                ↕
+     └── revised intent ⇄ review ⇄ evidence
+                 ↖          ↓          ↗
+                    human acceptance
+                         for now
+```
+
+The process is iterative, recursive, and sometimes messy.
+
+The builder may challenge the requirement. A critic may be overruled by evidence. A test may invalidate the judge. A minority report may survive when the majority is confidently wrong.
+
+**Disagreement is not treated as failure. It is treated as information.**
 
 ---
 
-### R.E.P.O. — Receipts Extracted, Processed, Organized
+## Systems in Motion
 
-An AI-powered document intelligence platform designed to eliminate manual expense processing.
+| System | What It Orchestrates |
+| --- | --- |
+| **Enterprise Operations Platform** | Dispatch, CRM, routing, workforce coordination, asset tracking, service delivery, and reporting across distributed teams |
+| **KWikSync** | Field surveys, locations, assets, tickets, tasks, warehouse operations, photo evidence, remediation, and ServiceNow |
+| **Q2Q Integration Platform** | QuickBooks, QuickBooks Time, AutoTask, Quickbase, GeoTab, ServiceNow, and proprietary systems |
+| **R.E.P.O.** | Receipts, invoices, OCR, AI extraction, accounting records, validation, and human review |
+| **Warehouse Management** | Inventory across facilities, vehicles, customer locations, labor, billing, replenishment, and audit trails |
 
-Using OCR and AI-assisted analysis, REPO extracts vendor information, totals, taxes, purchase order numbers, project references, account context, and expense classifications from receipts and invoices. Extracted data is validated against accounting records before entering downstream workflows.
-
-Built for both Quickbase-native deployments and cloud-hosted middleware architectures, REPO supports mobile image capture, desktop workflows, and large-scale PDF processing. During testing, the system successfully processed complex multi-hundred-page vendor invoices while maintaining structured output and reviewability.
-
-The platform reduces manual entry, improves data quality, and creates a searchable expense hierarchy that connects accounting, project management, and operational workflows.
-
----
-
-### KW Q2Q Integration Platform
-
-Enterprise middleware connecting QuickBooks, QuickBooks Time, AutoTask, Quickbase, GeoTab, ServiceNow, and proprietary internal systems.
-
-The platform automates information flow across the operational lifecycle, including job preparation, travel coordination, onsite work, approvals, payroll processing, inventory management, fleet operations, scheduling, billing, and HR onboarding.
-
-Q2Q functions as a universal translation layer between otherwise disconnected business platforms, enabling consistent workflows across diverse systems and data models.
-
----
+<details>
+<summary><strong>Open the systems notebook</strong></summary>
 
 ### KWikSync
 
-Certified ServiceNow application that bridges operational field data with ServiceNow's system of record.
+A certified ServiceNow application connecting field operations to a system of record. It synchronizes locations, projects, assets, tickets, tasks, inventory, survey responses, remediation requests, evidence, and health-state dashboards.
 
-KWikSync synchronizes locations, projects, assets, tickets, tasks, warehouse inventory, and field-survey data into unified dashboards and workflows. Through native CMDB integration, organizations gain real-time visibility into operational health and project status.
+### R.E.P.O. — Receipts Extracted, Processed, Organized
 
-A dynamic question registry allows survey authors to create and version field assessments without code changes. Configurable health rules classify responses into red, yellow, and green states, transforming raw survey data into actionable findings, remediation tracking, and photo-backed documentation.
+An AI-assisted document-intelligence system that extracts vendor details, totals, taxes, purchase orders, projects, accounts, and classifications, then subjects the result to validation and review before downstream use.
 
----
+### Q2Q Integration Platform
 
-### KWC Warehouse Management System
+Middleware that carries data and state across accounting, time tracking, service management, fleet, inventory, scheduling, payroll, billing, onboarding, and internal operational systems.
 
-Warehouse and inventory management platform integrating CRM, ticketing, accounting, and operational systems.
+### Warehouse Management
 
-The application maintains real-time inventory visibility across multiple warehouse facilities, a fleet of more than 40 vehicles, and over 2,400 customer locations. The system supports labor tracking, material billing, inventory movement, replenishment workflows, and operational reporting from a single source of truth.
+A distributed inventory system spanning warehouses, more than 40 vehicles, and thousands of customer locations while connecting materials, labor, tickets, CRM, accounting, and reporting.
 
----
-
-### Early Vibe-Coded Experiments
-
-Before AI-assisted development became mainstream, I used games and browser experiments as a laboratory for prompt design and model evaluation.
-
-These projects were less about game development and more about understanding the capabilities, limitations, and behavioral patterns of emerging language models. Most were intentionally built as "one-shot" experiments to test how far early systems could be pushed with carefully constructed prompts.
-
-Today they serve as a record of that learning process and a snapshot of how rapidly the tooling has evolved.
-
-Explore them here:
-
-**https://ncypher.github.io/tomfoolery/**
-
-Or the library below:
----
-
-## Vibe Lab
-
-Small games and experiments are where I let the human-to-AI workflow stay playful.
-
-| Experiment | Why It Exists |
-| --- | --- |
-| [Space Invaders Pro](https://ncypher.github.io/tomfoolery/space-invaders-pro.html) | Retro arcade logic with modern JavaScript, particle systems, progression mechanics, and visual polish |
-| [3D Rubik's Cube Pro](https://ncypher.github.io/tomfoolery/rubiks-cube-pro.html) | Three.js interaction, lighting systems, camera controls, and spatial interface experimentation |
-| [Snake Pro](https://ncypher.github.io/tomfoolery/snake-pro.html) | Classic gameplay rebuilt with smoother animation and modern browser techniques |
-| [Cyber Runner](https://ncypher.github.io/tomfoolery/cyber-runner.html) | Side-scrolling timing challenges, obstacle systems, and rapid-play design |
-| [Pixel Pet](https://ncypher.github.io/tomfoolery/pixel-pet.html) | State management, interaction loops, and lightweight simulation mechanics |
-| [Mandelbrot Lab](https://ncypher.github.io/tomfoolery/mandelbrot-lab.html) | Interactive fractal exploration, zoom systems, color palettes, and mathematical visualization |
-
+</details>
 
 ---
 
-## Working Style
+## Conversational Artifacts
 
-- AI is a force multiplier, not a substitute for engineering judgment.
-- Small, testable changes outperform heroic rewrites.
-- Reliability, observability, and auditability matter.
-- Good interfaces make complex systems feel calm.
-- Prompts, tests, logs, schemas, and UI states are all parts of the same system.
-- Automation should amplify human capability, not remove human accountability.
+### Collecting thoughts that wanted to become software.
 
+This began as a collection of browser experiments. It is becoming a living code journal about the changing boundary between language, thought, and software.
 
----
+Some artifacts began with a carefully shaped prompt. Others moved through ChatGPT, Claude, Gemini, NotebookLM, Grok, editors, browser tools, image generators, music generators, and coding agents.
 
-## Toolbox
+One system proposed. Another criticized. Another repaired a visual defect or exposed a hidden assumption. Tests and runtime behavior settled arguments that language alone could not.
+
+The result was rarely the product of one model. It was an alloy created through collaboration, disagreement, translation, evidence, and time.
 
 <div align="center">
 
-### Languages and Frameworks
+### A thought → a sketch → an artifact → a field report
 
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
-  <a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" /></a>
-  <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" /></a>
-</p>
+### [Enter Conversational Artifacts →](https://ncypher.github.io/tomfoolery/)
 
-### Platforms and Infrastructure
+</div>
 
-<p>
-  <a href="https://www.quickbase.com/"><img src="https://img.shields.io/badge/QuickBase-6B00D7?style=for-the-badge&logoColor=white" alt="QuickBase" /></a>
-  <a href="https://developer.servicenow.com/"><img src="https://img.shields.io/badge/ServiceNow-00A3E0?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow" /></a>
-  <a href="https://www.digitalocean.com/"><img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean" /></a>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
-</p>
+### Rooms in the notebook
 
-### APIs and AI Tools
+- **Field Notes** — observations, contradictions, and things reality taught me
+- **Thought Experiments** — interactive ideas about feedback, governance, emergence, and distributed intelligence
+- **Living Systems** — gardens, watersheds, neighborhoods, sensors, ecology, and delayed consequences
+- **Software Sketches** — small executable ideas with deliberately narrow scope
+- **Research Journal** — records of how the process changed my understanding
 
-<p>
-  <a href="https://developer.intuit.com/app/developer/qbo/docs/get-started"><img src="https://img.shields.io/badge/QuickBooks_API-2CA01C?style=for-the-badge&logo=quickbooks&logoColor=white" alt="QuickBooks API" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" alt="REST APIs" /></a>
-  <a href="https://oauth.net/2/"><img src="https://img.shields.io/badge/OAuth_2.0-EB5424?style=for-the-badge" alt="OAuth 2.0" /></a>
-  <a href="https://platform.openai.com/docs"><img src="https://img.shields.io/badge/OpenAI_APIs-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI APIs" /></a>
-  <a href="https://docs.anthropic.com/en/docs"><img src="https://img.shields.io/badge/Claude_AI-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude AI" /></a>
-  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Copilot" /></a>
-</p>
+### Current and emerging artifacts
+
+| Artifact | What It Makes Visible |
+| --- | --- |
+| **AI Orchestra** | Specialized roles, distributed trust, critique, runtime evidence, and human direction |
+| **Feedback Knot** | Nonlinear development, appeals, dissent, reopened questions, and provisional acceptance |
+| **Mandelbrot Lab** | Emergence, recursive structure, mathematical exploration, and the limits of direct prediction |
+| **The Cognitive Ecology** | Intelligence emerging from relationships among people, tools, evidence, and time |
+| **The Vibe-Coded Spaghetti Monster** | Patched-together prototypes, hidden dependencies, accidental architecture, and load-bearing ugliness |
+| **Distributed Watershed** | Environmental sensing as a neighborhood-scale nervous system |
+| **Cybernetic Garden** | Delayed consequences, adaptive behavior, and feedback made tangible |
+
+The early browser games remain preserved as evidence of the process. They are not the destination. They are the fossil layer.
+
+---
+
+## A Field Note Format
+
+Each artifact can begin with a small record:
+
+```text
+Field Note 012
+
+Observation
+Programming is becoming a form of exploratory conversation.
+
+Question
+What happens if disagreement becomes part of the software instead of something to eliminate?
+
+Artifact
+Feedback Knot
+
+Status
+Still observing.
+```
+
+Not complete.
+
+Not final.
+
+**Still observing.**
+
+---
+
+## Operating Principles
+
+- No single model receives the entire trust circle.
+- Generation, criticism, verification, and acceptance remain distinct responsibilities.
+- Confidence is not evidence.
+- Runtime behavior outranks persuasive explanation.
+- Disagreement should remain visible rather than being silently averaged away.
+- Some complexity is accidental. Some complexity is historical adaptation.
+- Small, observable changes outperform heroic rewrites.
+- Good interfaces make complex systems feel calm.
+- Automation should expand human capability without dissolving human accountability.
+
+---
+
+## Tools in the Expedition
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-00A3E0?style=for-the-badge&logo=servicenow&logoColor=white)
+![Quickbase](https://img.shields.io/badge/Quickbase-6B00D7?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![NotebookLM](https://img.shields.io/badge/NotebookLM-Research_Notebook-0F9D58?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
 ---
 
-## Find Me
+## Current Questions
+
+What happens when natural language becomes a genuine development medium?
+
+Can intelligence emerge from the relationships among people, models, tools, evidence, and time rather than residing in any one participant?
+
+How much independent agency can a human coordinate without losing comprehension, accountability, or energy?
+
+Can systems preserve minority reports and productive disagreement instead of manufacturing false consensus?
+
+Can environmental sensing become a distributed nervous system for a neighborhood, watershed, or city?
+
+Can a small interactive artifact teach a systems concept by letting someone feel it before naming it?
+
+---
 
 <div align="center">
 
-<p>
-  <a href="https://github.com/ncypher"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://x.com/TomHarwood75"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://www.facebook.com/harwood.thomas"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
-  <a href="https://ncypher.github.io/tomfoolery/"><img src="https://img.shields.io/badge/Projects-Experiments-00FFD1?style=for-the-badge" alt="Projects and experiments" /></a>
-</p>
+### Do not make yourself write. Make yourself wonder.
 
-Open to collaboration on AI-driven middleware, QuickBase and ServiceNow architecture, creative interfaces, data visualization, and human-AI development workflows.
+**What surprised you this week?**  
+**What idea refused to leave you alone?**  
+**What thought wants to become software?**
+
+[GitHub](https://github.com/ncypher) · [X](https://x.com/TomHarwood75) · [Conversational Artifacts](https://ncypher.github.io/tomfoolery/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ncypher&color=00FFD1&style=for-the-badge)
 
-<img src="./assets/matrix.svg" width="700" alt="Matrix digital rain" />
-
 </div>
-
----
-
-## Philosophy
-
-I am fascinated by the space where human creativity and machine capability overlap.
-
-The most interesting systems are not fully automated. They are collaborative. The future is not humans versus AI; it is humans building systems that allow people and machines to solve problems together more effectively than either could alone.
-
-That idea drives nearly everything I build.
