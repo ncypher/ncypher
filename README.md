@@ -4,58 +4,95 @@
 
 ### Programming is becoming a form of exploratory conversation.
 
-**I build the connective tissue between people, platforms, data, and AI.**
+**I turn human intent into working systems by orchestrating people, models, evidence, and code.**
 
-<img src="./assets/ncypher-flow.svg" width="900" alt="Animated ncypher workflow showing ideas moving through AI, design, platforms, and people" />
+<img src="./assets/polycentric-orchestra.svg" width="960" alt="Animated polycentric orchestration system with a human conductor, specialized agents, disagreement, appeals, overrides, and runtime feedback" />
 
 [![GitHub followers](https://img.shields.io/github/followers/ncypher?style=social)](https://github.com/ncypher)
 [![X Follow](https://img.shields.io/twitter/follow/TomHarwood75?style=social)](https://x.com/TomHarwood75)
-[![Conversational Artifacts](https://img.shields.io/badge/Conversational_Artifacts-Explore-00FFD1?style=flat-square)](https://ncypher.github.io/tomfoolery/)
+[![Conversational Artifacts](https://img.shields.io/badge/Conversational_Artifacts-Enter_the_Lab-00FFD1?style=flat-square)](https://ncypher.github.io/tomfoolery/)
 
 </div>
 
 ---
 
-## What I Do
+## The Work
 
-I design practical software for the untidy space where real operations meet technology.
+I build software in the untidy space where operations, people, platforms, and machine intelligence meet.
 
-My work spans ServiceNow applications, Quickbase platforms, Python middleware, JavaScript interfaces, accounting and service-management integrations, AI-assisted document processing, and multi-agent development workflows.
+My work spans ServiceNow applications, Quickbase systems, Python middleware, JavaScript interfaces, accounting integrations, document intelligence, workflow automation, and multi-model development environments.
 
-I am especially interested in systems that translate between different forms of information: human intent, business rules, documents, APIs, databases, interfaces, and code.
+The common thread is translation:
 
-> **Software increasingly begins as conversation. Source code is no longer always the first formal representation of an idea; it is often the compiled form of an extended dialogue.**
+> human intent → shared language → architecture → agents and tools → tested behavior
+
+**Software increasingly begins as conversation. Source code is no longer always the first formal representation of an idea; it is often the compiled form of an extended dialogue.**
 
 ---
 
-## Current Work
+## Polycentric Cybernetic Orchestration
 
-| System | What It Connects |
+That is the best phrase I currently have for the way I work.
+
+It is **polycentric** because authority is distributed across several decision centers rather than entrusted to one model. It is **cybernetic** because outputs return as feedback and change the next action. It is **orchestration** because the human maintains direction, coherence, boundaries, and final responsibility while specialized agents perform different parts of the work.
+
+The system behaves less like a single assistant and more like a federation:
+
+| Function | Responsibility |
 | --- | --- |
-| **Enterprise Orchestration** | Dispatch, CRM, service management, routing, workforce coordination, asset tracking, and reporting across distributed operations |
-| **KWikSync** | Field surveys, assets, locations, tickets, tasks, warehouse data, evidence, and ServiceNow workflows |
-| **Q2Q Integration Platform** | QuickBooks, QuickBooks Time, AutoTask, Quickbase, GeoTab, ServiceNow, and internal systems |
-| **R.E.P.O.** | Receipts, invoices, OCR, AI extraction, accounting validation, and review workflows |
-| **Warehouse Management** | Inventory movement across warehouses, vehicles, customer locations, labor, billing, and replenishment |
+| **Legislative** | Define requirements, constraints, schemas, acceptance criteria, and proposed changes |
+| **Executive** | Build, transform, integrate, run, and report what happened |
+| **Judicial** | Test claims, inspect evidence, interpret failures, reject assumptions, and overrule weak conclusions |
+| **Human conductor** | Set purpose, distribute trust, resolve ambiguity, protect coherence, and accept the final result |
+| **Runtime** | Provide the evidence none of the participants can negotiate away |
+
+These are roles, not permanent ranks. The builder may challenge the specification. A test may invalidate the judge. A critic may be overruled by runtime evidence. A minority report may survive when the majority is confidently wrong.
+
+Disagreement is not treated as failure. It is treated as information.
+
+```text
+intent
+  ↓
+proposal ⇄ implementation ⇄ review
+  ↑             ↓             ↑
+constraints   runtime       appeal
+  └──────── feedback ─────────┘
+             ↓
+        human acceptance
+```
+
+This is closer to a professional race team than a prompt box: several specialists work at speed, but the telemetry, pit wall, driver, engineers, and track conditions continually correct one another.
+
+---
+
+## Systems in Motion
+
+| System | What It Orchestrates |
+| --- | --- |
+| **Enterprise Operations Platform** | Dispatch, CRM, routing, workforce coordination, asset tracking, service delivery, and reporting across distributed teams |
+| **KWikSync** | Field surveys, locations, assets, tickets, tasks, warehouse operations, photo evidence, remediation, and ServiceNow |
+| **Q2Q Integration Platform** | QuickBooks, QuickBooks Time, AutoTask, Quickbase, GeoTab, ServiceNow, and proprietary systems |
+| **R.E.P.O.** | Receipts, invoices, OCR, AI extraction, accounting records, validation, and human review |
+| **Warehouse Management** | Inventory across facilities, vehicles, customer locations, labor, billing, replenishment, and audit trails |
 
 <details>
-<summary><strong>More about the systems</strong></summary>
+<summary><strong>Open the systems notebook</strong></summary>
 
 ### KWikSync
 
-A certified ServiceNow application that connects field operations to the system of record. It synchronizes locations, projects, assets, tickets, tasks, warehouse inventory, survey responses, remediation requests, photo evidence, and health-state dashboards.
+A certified ServiceNow application connecting field operations to a system of record. It synchronizes locations, projects, assets, tickets, tasks, inventory, survey responses, remediation requests, evidence, and health-state dashboards.
 
 ### R.E.P.O. — Receipts Extracted, Processed, Organized
 
-An AI-assisted document-intelligence system for extracting vendor details, totals, taxes, purchase orders, projects, accounts, and classifications from receipts and invoices, then validating the results before they enter downstream workflows.
+An AI-assisted document-intelligence system that extracts vendor details, totals, taxes, purchase orders, projects, accounts, and classifications, then subjects the result to validation and review before downstream use.
 
 ### Q2Q Integration Platform
 
-Middleware that translates data and workflow state across accounting, time tracking, service management, fleet, inventory, scheduling, billing, payroll, onboarding, and proprietary operational systems.
+Middleware that carries data and state across accounting, time tracking, service management, fleet, inventory, scheduling, payroll, billing, onboarding, and internal operational systems.
 
 ### Warehouse Management
 
-A distributed inventory system supporting warehouses, more than 40 vehicles, and thousands of customer locations while connecting material movement, labor, tickets, CRM, accounting, and reporting.
+A distributed inventory system spanning warehouses, more than 40 vehicles, and thousands of customer locations while connecting materials, labor, tickets, CRM, accounting, and reporting.
 
 </details>
 
@@ -65,62 +102,54 @@ A distributed inventory system supporting warehouses, more than 40 vehicles, and
 
 ### Collecting thoughts that wanted to become software.
 
-Before AI-assisted development became an ordinary part of software work, I used small browser applications as a laboratory for natural-language development.
+This began as a collection of browser experiments. It is becoming a living code journal about the changing boundary between language, thought, and software.
 
-Some began with a carefully shaped prompt. Others passed between GPT, Claude, Gemini, Grok, browser tools, editors, and coding agents. One model might generate; another might critique, restructure, debug, or explain. The finished artifact became an alloy of human direction, multiple model perspectives, testing, and runtime evidence.
+Some artifacts began with a carefully shaped prompt. Others moved through GPT, Claude, Gemini, Grok, editors, browser tools, and coding agents. One system proposed. Another criticized. Another repaired a visual defect or exposed a hidden assumption. Tests and runtime behavior settled arguments that language alone could not.
 
-The project is now becoming a **living code journal**:
-
-**A thought → a sketch → an artifact**
-
-Small, self-contained experiments exploring feedback, cybernetics, emergence, model orchestration, interfaces, simulations, and the changing relationship between language and software.
+The result was rarely the product of one model. It was an alloy created through collaboration, disagreement, translation, and evidence.
 
 <div align="center">
+
+### A thought → a sketch → an artifact
 
 ### [Enter Conversational Artifacts →](https://ncypher.github.io/tomfoolery/)
 
 </div>
 
-| Artifact | Exploration |
+| Artifact | What It Makes Visible |
 | --- | --- |
-| **AI Orchestra** | Human direction, specialized model roles, review loops, and runtime evidence |
-| **Mandelbrot Lab** | Mathematical visualization, navigation, rendering, and emergent structure |
-| **Space Invaders** | Game loops, browser rendering, particles, and iterative model refinement |
-| **3D Rubik's Cube** | Spatial interaction, Three.js, transforms, lighting, and camera systems |
-| **Snake** | State, timing, animation, and responsive interaction |
-| **Cyber Runner** | Side-scrolling mechanics, obstacle systems, animation, and pacing |
-| **Pixel Pet — Archive** | Persistent browser state and simulation; preserved honestly in its unfinished form |
+| **AI Orchestra** | Specialized agents, concentrated versus distributed trust, review loops, and runtime evidence |
+| **Mandelbrot Lab** | Emergence, recursive structure, mathematical exploration, and the limits of direct prediction |
+| **Space Invaders** | Game loops, rendering, particles, state transitions, and iterative model refinement |
+| **3D Rubik's Cube** | Spatial reasoning, transforms, lighting, cameras, interaction, and model handoffs |
+| **Snake** | State, timing, feedback, animation, and responsive control |
+| **Cyber Runner** | Pacing, obstacle systems, environmental response, and continuous adjustment |
+| **Pixel Pet — Archive** | Persistent state and simulation, preserved honestly as an unfinished experiment |
+
+The next artifacts move beyond games into **interactive thought experiments**:
+
+- feedback systems that stabilize, oscillate, or collapse
+- environmental sensor networks that behave like distributed nervous systems
+- agent federations that debate, appeal, verify, and preserve dissent
+- cybernetic gardens shaped by delayed consequences
+- small visual systems where people experience emergence before reading its definition
 
 ---
 
-## How I Work
+## Operating Principles
 
-```text
-intuition
-    ↓
-exploratory conversation
-    ↓
-clarified intent
-    ↓
-architecture + constraints
-    ↓
-model generation and critique
-    ↓
-tests + runtime evidence
-    ↓
-software
-```
-
-- AI is a force multiplier, not a substitute for judgment.
-- No single model gets the entire trust circle.
-- Generation, criticism, testing, and final acceptance are separate responsibilities.
+- No single model receives the entire trust circle.
+- Generation, criticism, verification, and acceptance remain distinct responsibilities.
+- Confidence is not evidence.
+- Disagreement should be visible rather than silently averaged away.
+- Runtime behavior outranks persuasive explanation.
 - Small, observable changes outperform heroic rewrites.
 - Good interfaces make complex systems feel calm.
-- Automation should amplify human capability without removing human accountability.
+- Automation should expand human capability without dissolving human accountability.
 
 ---
 
-## Tools I Reach For
+## Tools in the Pit
 
 <div align="center">
 
@@ -138,11 +167,17 @@ software
 
 ---
 
-## What I Am Exploring Now
+## Current Questions
 
-Cybernetics, distributed environmental sensing, feedback systems, human-AI orchestration, agentic software development, operational interfaces, and the possibility that natural language is becoming a genuine development medium.
+What happens when natural language becomes a genuine development medium?
 
-I am interested in the spaces between established disciplines—the places where an idea can still surprise everyone involved.
+How much independent agency can a human safely coordinate without losing comprehension, accountability, or energy?
+
+Can systems preserve minority reports and productive disagreement instead of manufacturing false consensus?
+
+Can environmental sensing become a distributed nervous system for a neighborhood, watershed, or city?
+
+Can a small interactive artifact teach cybernetics by letting someone feel a feedback loop before naming it?
 
 ---
 
