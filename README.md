@@ -50,8 +50,8 @@ I work across an ecosystem of tools with different strengths, failure modes, and
 
 | Tool or environment | Typical role in the ecology |
 | --- | --- |
-| **ChatGPT** | Exploration, systems thinking, artifact design, synthesis, reframing, and conversational development |
-| **Claude** | Prose refinement, critique, alternative reasoning, careful editing, and second-pass review |
+| **Claude** | Exploration, systems thinking, artifact design, synthesis, reframing, and conversational development |
+| **Codex** | Prose refinement, critique, alternative reasoning, careful editing, and second-pass review |
 | **Gemini** | Google-native workflows, broad exploration, multimodal work, and another independent perspective |
 | **NotebookLM** | Source-grounded synthesis, research packets, structured context, and long-form material organized around a corpus |
 | **VS Code agents** | Implementation, debugging, iteration, repository work, and runtime-facing development |
