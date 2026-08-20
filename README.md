@@ -2,7 +2,7 @@
 
 # Tom Harwood / ncypher
 
-###Casting ideas into software.
+### Casting ideas into software.
 
 **My code transforms ambiguous intent into systems that can be tested, challenged, and improved.**
 
