@@ -1,6 +1,6 @@
 <svg width="960" height="460" viewBox="0 0 960 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Polycentric AI orchestration with human conductor, agents, evidence, debate, and runtime feedback</title>
-  <desc id="desc">An animated systems diagram styled like a professional race team. A human conductor directs specialized agents. Legislative, executive, and judicial roles propose, build, review, disagree, appeal, and overrule one another. Runtime evidence returns through a continuous feedback loop.</desc>
+  <desc id="desc">An animated systems diagram styled like a professional race team. A human conductor collaborates with specialized agents. Legislative, executive, and judicial roles propose, build, review, disagree, appeal, overrule, and return evidence through bidirectional traffic and continuous runtime feedback.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="960" y2="460" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#05090d"/>
@@ -32,6 +32,8 @@
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#6af7e0" stroke-opacity="0.055"/>
     </pattern>
+
+    <!-- forward routes -->
     <path id="intentPath" d="M110 224 C180 224 214 224 280 224"/>
     <path id="legPath" d="M480 224 C430 150 372 126 316 116"/>
     <path id="execPath" d="M480 224 C562 155 632 130 700 116"/>
@@ -40,6 +42,15 @@
     <path id="execJudge" d="M704 134 C682 246 620 324 512 356"/>
     <path id="judgeLeg" d="M448 356 C334 322 278 244 304 140"/>
     <path id="runtimePath" d="M700 116 C790 132 842 184 842 246 C842 342 740 406 480 406 C242 406 118 344 118 258 C118 244 120 236 126 226"/>
+
+    <!-- return and peer routes -->
+    <path id="intentReturn" d="M280 224 C214 224 180 224 110 224"/>
+    <path id="legReturn" d="M316 116 C372 126 430 150 480 224"/>
+    <path id="execReturn" d="M700 116 C632 130 562 155 480 224"/>
+    <path id="judgeReturn" d="M480 356 C480 324 480 292 480 224"/>
+    <path id="execLeg" d="M686 126 C594 78 448 78 330 126"/>
+    <path id="judgeExec" d="M512 356 C620 324 682 246 704 134"/>
+    <path id="legJudge" d="M304 140 C278 244 334 322 448 356"/>
   </defs>
 
   <rect width="960" height="460" rx="24" fill="url(#bg)"/>
@@ -120,15 +131,42 @@
     <g transform="translate(842 246)"><rect x="-44" y="-12" width="88" height="24" rx="12" fill="#07151a" stroke="#6af7e0" stroke-opacity="0.55"/><text text-anchor="middle" y="3" fill="#b9fff3">RUNTIME</text></g>
   </g>
 
+  <!-- collaborative traffic: asymmetric timing prevents mechanical synchronization -->
   <g filter="url(#glow)">
-    <circle r="5" fill="#eafffb"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#intentPath"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" dur="2.2s" repeatCount="indefinite"/></circle>
-    <circle r="4" fill="#ffbe6b"><animateMotion dur="2.8s" begin="0.25s" repeatCount="indefinite"><mpath href="#legPath"/></animateMotion></circle>
-    <circle r="4" fill="#ffbe6b"><animateMotion dur="2.8s" begin="0.9s" repeatCount="indefinite"><mpath href="#execPath"/></animateMotion></circle>
-    <circle r="4" fill="#ffbe6b"><animateMotion dur="2.8s" begin="1.55s" repeatCount="indefinite"><mpath href="#judgePath"/></animateMotion></circle>
-    <circle r="4" fill="#d9bfff"><animateMotion dur="3.4s" begin="0.4s" repeatCount="indefinite"><mpath href="#legExec"/></animateMotion></circle>
-    <circle r="4" fill="#8effec"><animateMotion dur="3.6s" begin="1.1s" repeatCount="indefinite"><mpath href="#execJudge"/></animateMotion></circle>
-    <circle r="4" fill="#ff8fab"><animateMotion dur="3.8s" begin="1.8s" repeatCount="indefinite"><mpath href="#judgeLeg"/></animateMotion></circle>
-    <circle r="5" fill="#b9fff3"><animateMotion dur="6.8s" repeatCount="indefinite"><mpath href="#runtimePath"/></animateMotion><animate attributeName="opacity" values="0;1;1;1;0" dur="6.8s" repeatCount="indefinite"/></circle>
+    <circle r="5" fill="#eafffb">
+      <animateMotion dur="2.4s" begin="0s" repeatCount="indefinite"><mpath href="#intentPath"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#8effec" opacity="0.78">
+      <animateMotion dur="4.9s" begin="1.8s" repeatCount="indefinite"><mpath href="#intentReturn"/></animateMotion>
+    </circle>
+
+    <circle r="4" fill="#ffbe6b"><animateMotion dur="3.1s" begin="0.3s" repeatCount="indefinite"><mpath href="#legPath"/></animateMotion></circle>
+    <circle r="3" fill="#00ffd1" opacity="0.86"><animateMotion dur="2.7s" begin="1.1s" repeatCount="indefinite"><mpath href="#legReturn"/></animateMotion></circle>
+
+    <circle r="4.5" fill="#ffbe6b"><animateMotion dur="2.6s" begin="0.8s" repeatCount="indefinite"><mpath href="#execPath"/></animateMotion></circle>
+    <circle r="3" fill="#bd8cff" opacity="0.88"><animateMotion dur="3.8s" begin="2.15s" repeatCount="indefinite"><mpath href="#execReturn"/></animateMotion></circle>
+
+    <circle r="4" fill="#ffbe6b"><animateMotion dur="3.5s" begin="1.4s" repeatCount="indefinite"><mpath href="#judgePath"/></animateMotion></circle>
+    <circle r="3.5" fill="#8effec" opacity="0.9"><animateMotion dur="2.9s" begin="0.65s" repeatCount="indefinite"><mpath href="#judgeReturn"/></animateMotion></circle>
+
+    <circle r="3.5" fill="#d9bfff"><animateMotion dur="4.3s" begin="0.5s" repeatCount="indefinite"><mpath href="#legExec"/></animateMotion></circle>
+    <circle r="2.5" fill="#d9bfff" opacity="0.7"><animateMotion dur="3.6s" begin="2.2s" repeatCount="indefinite"><mpath href="#execLeg"/></animateMotion></circle>
+
+    <circle r="4" fill="#8effec"><animateMotion dur="3.9s" begin="1.2s" repeatCount="indefinite"><mpath href="#execJudge"/></animateMotion></circle>
+    <circle r="2.5" fill="#bd8cff" opacity="0.78"><animateMotion dur="4.7s" begin="0.1s" repeatCount="indefinite"><mpath href="#judgeExec"/></animateMotion></circle>
+
+    <circle r="3.5" fill="#ff8fab"><animateMotion dur="4.6s" begin="1.75s" repeatCount="indefinite"><mpath href="#judgeLeg"/></animateMotion></circle>
+    <circle r="2.5" fill="#00ffd1" opacity="0.75"><animateMotion dur="5.1s" begin="3s" repeatCount="indefinite"><mpath href="#legJudge"/></animateMotion></circle>
+
+    <!-- independent evidence streams -->
+    <circle r="5" fill="#b9fff3">
+      <animateMotion dur="7.7s" repeatCount="indefinite"><mpath href="#runtimePath"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;1;0" dur="7.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.5" fill="#6af7e0" opacity="0.62">
+      <animateMotion dur="11.3s" begin="3.1s" repeatCount="indefinite"><mpath href="#runtimePath"/></animateMotion>
+    </circle>
   </g>
 
   <g font-family="Consolas, Monaco, monospace" font-size="10" fill="#8fa8b6" opacity="0.74">
