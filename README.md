@@ -4,7 +4,7 @@
 
 ### Designing environments where ideas can evolve into software.
 
-**I work across people, platforms, models, evidence, and code to turn ambiguous intent into systems that can be tested, challenged, and improved.**
+**I code to turn ambiguous intent into systems that can be tested, challenged, and improved.**
 
 <img src="./assets/polycentric-orchestra.svg" width="960" alt="Animated orchestration system showing a human conductor, specialized agents, disagreement, appeals, runtime evidence, and feedback" />
 
