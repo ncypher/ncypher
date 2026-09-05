@@ -159,6 +159,19 @@ The result was rarely the product of one model. It was an alloy created through 
 
 </div>
 
+### Live experiments
+
+These are not screenshots or static demos. They are running artifacts — small worlds and decision systems that can be entered, perturbed, and observed.
+
+| Live Artifact | Enter |
+| --- | --- |
+| **Gold Digger** | **[Launch →](https://gold-digger.streamlit.app)** |
+| **Crucible Dynamic** | **[Launch →](https://crucible-dynamic.streamlit.app)** |
+| **Tiny Gods** | **[Launch →](https://tiny-gods.streamlit.app)** |
+| **The Turning** | **[Launch →](https://the-turning.streamlit.app)** |
+
+> **The interface is part of the argument.** These experiments use interaction, randomness, constraints, and emergent behavior to explore ideas that are difficult to communicate with prose alone.
+
 ### Rooms in the notebook
 
 - **Field Notes** — observations, contradictions, and things reality taught me
