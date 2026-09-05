@@ -124,31 +124,5 @@
   </g>
 
 <text class="static-caption" x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#8effec">Intent → proposal → build → review → dissent → revision → evidence → human decision</text>
-  <g class="stage" opacity="0"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.1111111111111111;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#eafffb" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.1111111111111111;1" keyPoints="0;1;1" calcMode="linear"><mpath href="#intentPath"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#eafffb">01 / INTENT · A human sets the goal and its boundaries.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.1111111111111111;0.2222222222222222;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#ffbe6b" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.1111111111111111;0.2222222222222222;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#legPath"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#ffbe6b">02 / PROPOSE · Translate the goal into a proposal that can be challenged.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.2222222222222222;0.3333333333333333;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#d9bfff" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.2222222222222222;0.3333333333333333;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#legExec"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#d9bfff">03 / BUILD · The builder turns the proposal into observable behavior.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3333333333333333;0.4444444444444444;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#8effec" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.3333333333333333;0.4444444444444444;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#execJudge"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#8effec">04 / REVIEW · Independent review examines the implementation.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.4444444444444444;0.5555555555555556;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#ff8fab" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.4444444444444444;0.5555555555555556;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#judgeLeg"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#ff8fab">05 / DISSENT · An objection returns to the proposal; it is not erased.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.5555555555555556;0.6666666666666666;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#d9bfff" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.5555555555555556;0.6666666666666666;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#legExec"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#d9bfff">06 / REVISE · A revised proposal becomes a new implementation.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.6666666666666666;0.7777777777777778;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#8effec" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.6666666666666666;0.7777777777777778;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#runtimePath"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#8effec">07 / OBSERVE · Runtime consequences return to the original intent.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.7777777777777778;0.8888888888888888;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#8effec" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.7777777777777778;0.8888888888888888;1" keyPoints="0;0;1;1" calcMode="linear"><mpath href="#evidencePath"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#8effec">08 / VERIFY · Review checks evidence for the current revision.</text></g>
-<g class="stage" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8888888888888888;1" calcMode="discrete" dur="27s" repeatCount="indefinite"/>
-    <circle r="5" fill="#ffbe6b" filter="url(#glow)"><animateMotion dur="27s" repeatCount="indefinite" keyTimes="0;0.8888888888888888;1" keyPoints="0;0;1" calcMode="linear"><mpath href="#acceptPath"/></animateMotion></circle>
-    <text x="38" y="447" font-family="Consolas,monospace" font-size="11" fill="#ffbe6b">09 / HUMAN DECISION · The human may accept for now. New evidence can reopen the work.</text></g>
+  <!-- SCORE -->
 </svg>

@@ -1,0 +1,11 @@
+[
+  {"path":"intentPath","label":"01 / INTENT","detail":"A human sets the goal and its boundaries.","color":"#eafffb"},
+  {"path":"legPath","label":"02 / PROPOSE","detail":"Translate the goal into a proposal that can be challenged.","color":"#ffbe6b"},
+  {"path":"legExec","label":"03 / BUILD","detail":"The builder turns the proposal into observable behavior.","color":"#d9bfff"},
+  {"path":"execJudge","label":"04 / REVIEW","detail":"Independent review examines the implementation.","color":"#8effec"},
+  {"path":"judgeLeg","label":"05 / DISSENT","detail":"An objection returns to the proposal; it is not erased.","color":"#ff8fab"},
+  {"path":"legExec","label":"06 / REVISE","detail":"A revised proposal becomes a new implementation.","color":"#d9bfff"},
+  {"path":"runtimePath","label":"07 / OBSERVE","detail":"Runtime consequences return to the original intent.","color":"#8effec"},
+  {"path":"evidencePath","label":"08 / VERIFY","detail":"Review checks evidence for the current revision.","color":"#8effec"},
+  {"path":"acceptPath","label":"09 / HUMAN DECISION","detail":"The human may accept for now. New evidence can reopen the work.","color":"#ffbe6b"}
+]
