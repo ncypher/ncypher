@@ -25,7 +25,8 @@ Software is one way to think out loud. These experiments let you move a control,
 | [**What the Wren Hears**](https://ncypher.github.io/tomfoolery/what-the-wren-hears.html) | Can you understand a radio signal by playing with its shape? |
 | [**Crown & Cinder**](https://ncypher.github.io/tomfoolery/crown-and-cinder.html) | What does a decision cost inside a small, competing world? |
 
-**Streamlit worlds:** [Gold Digger](https://gold-digger.streamlit.app) · [Crucible Dynamic](https://crucible-dynamic.streamlit.app) · [Tiny Gods](https://tiny-gods.streamlit.app) · [The Turning](https://the-turning.streamlit.app)
+**Streamlit worlds:** [Gold Digger](https://gold-digger.streamlit.app) · [Crucible Dynamic](https://crucible-dynamic.streamlit.app) · [Tiny Gods](https://tiny-gods.streamlit.app) · [The Turning](https://the-turning.streamlit.app) · [AI Think Tank](https://ai-think-tank.streamlit.app) · [Synapse](https://synapse-garden.streamlit.app).
+
 
 The early browser games are still here. They preserve the questions I was asking when I made them.
 
