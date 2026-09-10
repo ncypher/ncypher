@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Tom Harwood / ncypher
 
@@ -8,7 +8,7 @@ I build working systems from ambiguous intent — and small worlds that make an 
 
 [<img src="assets/polycentric-orchestra.svg" width="960" alt="A human-directed feedback loop: intent becomes a proposal, implementation meets review, dissent triggers revision, and runtime evidence returns for provisional human acceptance." />](https://ncypher.github.io/tomfoolery/polycentric-orchestra.html)
 
-**[Explore the collection](https://ncypher.github.io/tomfoolery/) · [Enter the Journal Room](https://ncypher.github.io/tomfoolery/journal/) · [Read the philosophy](https://ncypher.github.io/tomfoolery/artifacts/philosophy.html)**
+**[About me / Interactive resume](https://ncypher.github.io/tomfoolery/about.html) · [Explore the collection](https://ncypher.github.io/tomfoolery/) · [Enter the Journal Room](https://ncypher.github.io/tomfoolery/journal/) · [Read the philosophy](https://ncypher.github.io/tomfoolery/artifacts/philosophy.html)**
 
 <sub>The diagram follows a scored feedback cycle. Click it to introduce dissent, fail a test, and decide when the work is ready.</sub>
 
@@ -44,6 +44,8 @@ I build where real operations meet software: field service, warehouses, accounti
 
 Python · JavaScript · ServiceNow · Quickbase · REST APIs · Docker
 
+[**Meet the person behind the systems →**](https://ncypher.github.io/tomfoolery/about.html) Archaeology, fieldwork, operations, and AI-assisted software: explore the career connecting them.
+
 ## How I work
 
 The conversation is often the first draft. An observation becomes a question; the question becomes a sketch; the sketch becomes something we can test.
@@ -77,6 +79,6 @@ The [Journal Room](https://ncypher.github.io/tomfoolery/journal/) holds the obse
 
 ### Do not make yourself write. Make yourself wonder.
 
-[Conversational Artifacts](https://ncypher.github.io/tomfoolery/) · [GitHub](https://github.com/ncypher) · [X](https://x.com/TomHarwood75)
+[About Tom](https://ncypher.github.io/tomfoolery/about.html) · [Conversational Artifacts](https://ncypher.github.io/tomfoolery/) · [GitHub](https://github.com/ncypher) · [X](https://x.com/TomHarwood75)
 
 </div>
