@@ -25,6 +25,8 @@ Software is one way to think out loud. These experiments let you move a control,
 | [**What the Wren Hears**](https://ncypher.github.io/tomfoolery/what-the-wren-hears.html) | Can you understand a radio signal by playing with its shape? |
 | [**Crown & Cinder**](https://ncypher.github.io/tomfoolery/crown-and-cinder.html) | What does a decision cost inside a small, competing world? |
 
+**[Chasing the Flush](https://huggingface.co/spaces/Strange-Loop/chasing.the.flush)** — a 3D mushroom-foraging game set in a Michigan spring woodland. Sonnet 5.5 handled the coding, testing, and deployment with Opus 5.5 orchestrating; my part was repo/Space setup and a UI walkthrough. Spring is playable; more seasons and species are planned. [Explore or customize the source →](https://github.com/ncypher/chasing.the.flush)
+
 **Streamlit worlds:** [Gold Digger](https://gold-digger.streamlit.app) · [Crucible Dynamic](https://crucible-dynamic.streamlit.app) · [Tiny Gods](https://tiny-gods.streamlit.app) · [The Turning](https://the-turning.streamlit.app) · [AI Think Tank](https://ai-think-tank.streamlit.app) · [Synapse](https://synapse-garden.streamlit.app) · [Office Hours](https://office-simulator.streamlit.app/).
 
 **Community work:** [Project reoWren](https://www.patreon.com/cw/ProjectreoWren) explores community-owned reporting and radio-mesh communication. Follow its proof-of-concept development on Patreon.
