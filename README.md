@@ -26,6 +26,7 @@ Software is one way to think out loud. These experiments let you move a control,
 | [**Feedback Knot**](https://ncypher.github.io/tomfoolery/feedback-knot.html) | What happens when development doubles back on itself? |
 | [**What the Wren Hears**](https://ncypher.github.io/tomfoolery/what-the-wren-hears.html) | Can you understand a radio signal by playing with its shape? |
 | [**8.5 Ball × 2**](https://ncypher.github.io/8.5_Ball.Opus.5.5/) · [ChatGPT’s](https://ncypher.github.io/8.5_Ball/) | Same idea, two models: which oracle would you trust with your question? |
+| [**Rubik’s Cube, Opus 5.5**](https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html) · [GPT-5.6 Sol’s](https://ncypher.github.io/tomfoolery/rubiks-cube-gpt-5-6-sol.html) | Can it solve from any position, or only rewind your moves? |
 
 **[Chasing the Flush](https://ncypher.github.io/chasing.the.flush/)** — a 3D mushroom-foraging game set in a Michigan spring woodland. Sonnet 5.5 handled the coding, testing, and deployment with Opus 5.5 orchestrating; my part was repo/Space setup and a UI walkthrough. Spring is playable; more seasons and species are planned. [Explore or customize the source →](https://github.com/ncypher/chasing.the.flush)
 
