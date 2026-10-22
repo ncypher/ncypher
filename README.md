@@ -34,7 +34,9 @@ Software is one way to think out loud. These experiments let you move a control,
 
 **One idea, two models:** the [8.5 Ball](https://ncypher.github.io/8.5_Ball/) is a Magic 8 Ball for the age of AI, built first by ChatGPT, then rebuilt by [Claude Opus 5.5](https://ncypher.github.io/8.5_Ball.Opus.5.5/) as a 3D oracle that shows its reasoning and admits it can’t see the future. Play both and compare.
 
-The same goes for the [Rubik’s Cube](https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html): an earlier Three.js cube, GPT-5.6 Sol’s state engine, and Claude Opus 5.5’s cube, whose layers really turn and whose solver finishes from any position instead of rewinding your moves.
+**One puzzle, three generations:** the Rubik’s Cube has been built by an earlier model, by [GPT-5.6 Sol](https://ncypher.github.io/tomfoolery/rubiks-cube-gpt-5-6-sol.html), and by [Claude Opus 5.5](https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html). In the newest, the layers really turn when you drag a sticker, and the solver finishes from any position, layer by layer, instead of rewinding your moves.
+
+<a href="https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html"><img src="https://ncypher.github.io/tomfoolery/assets/rubiks-cube-opus-5-5.jpg" width="720" alt="Claude Opus 5.5's Rubik's Cube mid-solve, with the stage checklist and the solution move by move"></a>
 
 **Community work:** [Project reoWren](https://www.patreon.com/cw/ProjectreoWren) explores community-owned reporting and radio-mesh communication. Follow its proof-of-concept development on Patreon.
 
