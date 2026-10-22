@@ -25,10 +25,13 @@ Software is one way to think out loud. These experiments let you move a control,
 | [**Polycentric Orchestra**](https://ncypher.github.io/tomfoolery/polycentric-orchestra.html) | What changes when evidence and human acceptance govern the loop? |
 | [**Feedback Knot**](https://ncypher.github.io/tomfoolery/feedback-knot.html) | What happens when development doubles back on itself? |
 | [**What the Wren Hears**](https://ncypher.github.io/tomfoolery/what-the-wren-hears.html) | Can you understand a radio signal by playing with its shape? |
+| [**8.5 Ball × 2**](https://ncypher.github.io/8.5_Ball.Opus.5.5/) · [ChatGPT’s](https://ncypher.github.io/8.5_Ball/) | Same idea, two models: which oracle would you trust with your question? |
 
 **[Chasing the Flush](https://ncypher.github.io/chasing.the.flush/)** — a 3D mushroom-foraging game set in a Michigan spring woodland. Sonnet 5.5 handled the coding, testing, and deployment with Opus 5.5 orchestrating; my part was repo/Space setup and a UI walkthrough. Spring is playable; more seasons and species are planned. [Explore or customize the source →](https://github.com/ncypher/chasing.the.flush)
 
 **Streamlit worlds:** [Gold Digger](https://gold-digger.streamlit.app) · [Crucible Dynamic](https://crucible-dynamic.streamlit.app) · [Tiny Gods](https://tiny-gods.streamlit.app) · [The Turning](https://the-turning.streamlit.app) · [AI Think Tank](https://ai-think-tank.streamlit.app) · [Synapse](https://synapse-garden.streamlit.app) · [Office Hours](https://office-simulator.streamlit.app/).
+
+**One idea, two models:** the [8.5 Ball](https://ncypher.github.io/8.5_Ball/) is a Magic 8 Ball for the age of AI, built first by ChatGPT, then rebuilt by [Claude Opus 5.5](https://ncypher.github.io/8.5_Ball.Opus.5.5/) as a 3D oracle that shows its reasoning and admits it can’t see the future. Play both and compare.
 
 **Community work:** [Project reoWren](https://www.patreon.com/cw/ProjectreoWren) explores community-owned reporting and radio-mesh communication. Follow its proof-of-concept development on Patreon.
 
