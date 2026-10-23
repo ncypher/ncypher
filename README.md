@@ -18,25 +18,41 @@ I build working systems from ambiguous intent — and small worlds that make an 
 
 Software is one way to think out loud. These experiments let you move a control, disturb a system, and see what answers back.
 
-| Enter an artifact | Follow the question |
+<a href="https://ncypher.github.io/chasing.the.flush/"><img src="assets/showcase/chasing-the-flush.jpg" width="100%" alt="Chasing the Flush: sunlight through a Michigan spring woodland at the peak of morel season"></a>
+
+**[Chasing the Flush](https://ncypher.github.io/chasing.the.flush/)** — a 3D mushroom-foraging game set in a Michigan spring woodland. Sonnet 5.5 handled the coding, testing, and deployment with Opus 5.5 orchestrating; my part was repo/Space setup and a UI walkthrough. Spring is playable; more seasons and species are planned. [Explore or customize the source →](https://github.com/ncypher/chasing.the.flush)
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ncypher.github.io/8.5_Ball.Opus.5.5/"><img src="assets/showcase/8-5-ball-opus.jpg" width="100%" alt="Claude Opus 5.5's 8.5 Ball: a black 3D ball with a blue twenty-sided die answering a question, and its reasoning trace beside it"></a>
+<p><a href="https://ncypher.github.io/8.5_Ball.Opus.5.5/"><b>8.5 Ball × 2</b></a> · <a href="https://ncypher.github.io/8.5_Ball/">ChatGPT’s</a><br>A Magic 8 Ball for the age of AI, built by ChatGPT, then rebuilt by Claude Opus 5.5 as a 3D oracle that shows its reasoning and admits it can’t see the future.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html"><img src="assets/showcase/rubiks-cube-opus.jpg" width="100%" alt="Claude Opus 5.5's Rubik's Cube mid-solve, with the stage checklist and solution"></a>
+<p><a href="https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html"><b>Rubik’s Cube × 3</b></a> · <a href="https://ncypher.github.io/tomfoolery/rubiks-cube-gpt-5-6-sol.html">GPT-5.6 Sol’s</a><br>One puzzle, three generations. In Opus 5.5’s, the layers really turn and the solver finishes from any position instead of rewinding your moves.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ncypher.github.io/intelligence_explosion/"><img src="assets/showcase/intelligence-explosion.jpg" width="100%" alt="Intelligence Explosion: a tree of AI-assisted discoveries branching across biology, mathematics, and physics"></a>
+<p><a href="https://ncypher.github.io/intelligence_explosion/"><b>Intelligence Explosion</b></a><br>Is discovery accelerating? A sourced, living atlas of AI-assisted breakthroughs, with what the AI did and where the evidence stops.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://gold-digger.streamlit.app"><img src="assets/showcase/gold-digger.jpg" width="100%" alt="Gold Digger: the S&P 500 re-priced in gold, with a chart comparing dollar and gold returns"></a>
+<p><a href="https://gold-digger.streamlit.app"><b>Gold Digger</b></a><br>Re-price stocks, funds, and crypto in gold, eggs, gasoline, or houses to see what an investment is really doing.</p>
+</td>
+</tr>
+</table>
+
+| More to explore | Follow the question |
 | --- | --- |
-| [**Chasing the Flush**](https://ncypher.github.io/chasing.the.flush/) | Can you read the woods and catch ten days of Michigan morel season? |
 | [**Pixel Pet**](https://ncypher.github.io/tomfoolery/pixel-pet.html) | What grows when you care for a small, persistent world? |
 | [**Polycentric Orchestra**](https://ncypher.github.io/tomfoolery/polycentric-orchestra.html) | What changes when evidence and human acceptance govern the loop? |
 | [**Feedback Knot**](https://ncypher.github.io/tomfoolery/feedback-knot.html) | What happens when development doubles back on itself? |
 | [**What the Wren Hears**](https://ncypher.github.io/tomfoolery/what-the-wren-hears.html) | Can you understand a radio signal by playing with its shape? |
-| [**8.5 Ball × 2**](https://ncypher.github.io/8.5_Ball.Opus.5.5/) · [ChatGPT’s](https://ncypher.github.io/8.5_Ball/) | Same idea, two models: which oracle would you trust with your question? |
-| [**Rubik’s Cube, Opus 5.5**](https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html) · [GPT-5.6 Sol’s](https://ncypher.github.io/tomfoolery/rubiks-cube-gpt-5-6-sol.html) | Can it solve from any position, or only rewind your moves? |
-
-**[Chasing the Flush](https://ncypher.github.io/chasing.the.flush/)** — a 3D mushroom-foraging game set in a Michigan spring woodland. Sonnet 5.5 handled the coding, testing, and deployment with Opus 5.5 orchestrating; my part was repo/Space setup and a UI walkthrough. Spring is playable; more seasons and species are planned. [Explore or customize the source →](https://github.com/ncypher/chasing.the.flush)
 
 **Streamlit worlds:** [Gold Digger](https://gold-digger.streamlit.app) · [Crucible Dynamic](https://crucible-dynamic.streamlit.app) · [Tiny Gods](https://tiny-gods.streamlit.app) · [The Turning](https://the-turning.streamlit.app) · [AI Think Tank](https://ai-think-tank.streamlit.app) · [Synapse](https://synapse-garden.streamlit.app) · [Office Hours](https://office-simulator.streamlit.app/).
-
-**One idea, two models:** the [8.5 Ball](https://ncypher.github.io/8.5_Ball/) is a Magic 8 Ball for the age of AI, built first by ChatGPT, then rebuilt by [Claude Opus 5.5](https://ncypher.github.io/8.5_Ball.Opus.5.5/) as a 3D oracle that shows its reasoning and admits it can’t see the future. Play both and compare.
-
-**One puzzle, three generations:** the Rubik’s Cube has been built by an earlier model, by [GPT-5.6 Sol](https://ncypher.github.io/tomfoolery/rubiks-cube-gpt-5-6-sol.html), and by [Claude Opus 5.5](https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html). In the newest, the layers really turn when you drag a sticker, and the solver finishes from any position, layer by layer, instead of rewinding your moves.
-
-<a href="https://ncypher.github.io/tomfoolery/rubiks-cube-opus-5-5.html"><img src="https://ncypher.github.io/tomfoolery/assets/rubiks-cube-opus-5-5.jpg" width="720" alt="Claude Opus 5.5's Rubik's Cube mid-solve, with the stage checklist and the solution move by move"></a>
 
 **Community work:** [Project reoWren](https://www.patreon.com/cw/ProjectreoWren) explores community-owned reporting and radio-mesh communication. Follow its proof-of-concept development on Patreon.
 
@@ -47,6 +63,19 @@ The early browser games are still here. Their code was entirely generated by the
 ## The work behind the experiments
 
 I build where real operations meet software: field service, warehouses, accounting, documents, integrations, and the people moving between them.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ncypher/stitch-public"><img src="assets/showcase/stitch.jpg" width="100%" alt="Stitch on a phone: the ServiceNow home screen and a field survey with pass/fail condition and leak details"></a>
+<p><a href="https://github.com/ncypher/stitch-public"><b>Stitch</b></a><br>A ServiceNow app, built for the ServiceNow Store, for building field surveys, capturing evidence on a phone, and routing it for review. Shown with demo data.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://cureositylabs.com/#workbench"><img src="assets/showcase/cureosity-labs.jpg" width="100%" alt="cuREOsity Labs website: the what-if workbench turning a described problem into a work order"></a>
+<p><a href="https://cureositylabs.com/#workbench"><b>cuREOsity Labs</b></a><br>My REO Town technology workshop. Its site doubles as a working example: describe a headache and the workbench turns it into a work order.</p>
+</td>
+</tr>
+</table>
 
 | System | What it connects |
 | --- | --- |
