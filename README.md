@@ -2,17 +2,32 @@
 
 # Tom Harwood / ncypher
 
-### Casting ideas into software.
+### Forward-deployed AI engineer. I sit with the people doing the work, break down what they actually need, and orchestrate teams of AI agents to ship it to production.
 
-I build working systems from ambiguous intent — and small worlds that make an idea tangible.
+AI Solutions Architect at KW Corporation · Founder, CuREOsity Labs · REO Town, Lansing
 
-[<img src="assets/polycentric-orchestra.svg" width="960" alt="A human-directed feedback loop: intent becomes a proposal, implementation meets review, dissent triggers revision, and runtime evidence returns for provisional human acceptance." />](https://ncypher.github.io/tomfoolery/polycentric-orchestra.html)
+[CuREOsity Labs](https://cureositylabs.com)
 
 **[About me / Interactive resume](https://ncypher.github.io/tomfoolery/about.html) · [Explore the collection](https://ncypher.github.io/tomfoolery/) · [Enter the Journal Room](https://ncypher.github.io/tomfoolery/journal/) · [Read the philosophy](https://ncypher.github.io/tomfoolery/artifacts/philosophy.html)**
 
-<sub>The diagram follows a scored feedback cycle. Click it to introduce dissent, fail a test, and decide when the work is ready.</sub>
-
 </div>
+
+## How I work
+
+**Field → Spec:** on site with operators/customers; translate what they say into what they need.
+
+**Spec → Agents:** decompose into staged work orders; run parallel agent lanes; I hold the context.
+
+**Agents → Evidence:** nothing ships on the agents’ word — tests, runtime, and users decide.
+
+## Shipped
+
+- **KWikSync** — ServiceNow Store-certified, in production at Huntington National Bank, ~29,000 assets synced.
+- **Stitch**
+- **Q2Q middleware**
+- **R.E.P.O.** — Vision extraction + human review.
+
+<!-- TOM: one 2-sentence story — "They asked for X. What they needed was Y." -->
 
 ## Start with something you can touch
 
@@ -96,7 +111,14 @@ Python · JavaScript · ServiceNow · Quickbase · REST APIs · Docker
 
 [**Meet the person behind the systems →**](https://ncypher.github.io/tomfoolery/about.html) Archaeology, fieldwork, operations, and AI-assisted software: explore the career connecting them.
 
-## How I work
+## The practice behind it
+
+[<img src="assets/polycentric-orchestra.svg" width="960" alt="A human-directed feedback loop: intent becomes a proposal, implementation meets review, dissent triggers revision, and runtime evidence returns for provisional human acceptance." />](https://ncypher.github.io/tomfoolery/polycentric-orchestra.html)
+
+<sub>The diagram follows a scored feedback cycle. Click it to introduce dissent, fail a test, and decide when the work is ready.</sub>
+
+
+### How I work
 
 The conversation is often the first draft. An observation becomes a question; the question becomes a sketch; the sketch becomes something we can test.
 
@@ -117,7 +139,7 @@ I am learning the formal language of cybernetics through patterns I first met in
 
 [Philosophy](https://ncypher.github.io/tomfoolery/artifacts/philosophy.html) · [Workflow](https://ncypher.github.io/tomfoolery/artifacts/workflow.html) · [Timeline](https://ncypher.github.io/tomfoolery/artifacts/timeline.html)
 
-## Still observing
+### Still observing
 
 **New field notes · September 30, 2026:** [Repo Excavations II — When the Map Has to Answer to the Territory](https://ncypher.github.io/tomfoolery/journal/2026/09-30-repo-excavations.html) follows aging evidence, shared meanings, and Ghost’s archived layers. [I Was the Crash Test Dummy](https://ncypher.github.io/tomfoolery/journal/2026/09-30-crash-test-dummy.html) records what the model-generated games were exploring.
 
