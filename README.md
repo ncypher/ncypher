@@ -33,16 +33,77 @@ AI Solutions Architect at KW Corporation · Founder, CuREOsity Labs · REO Town,
 
 I build where real operations meet software: field service, warehouses, accounting, documents, integrations, and the people moving between them.
 
-### KWikSync · Data Sync
+### KWikSync · From the footprint to the field
 
-<img src="assets/showcase/kwiksync-data-sync.png" width="100%" alt="KWikSync Data Sync dashboard in ServiceNow, with navigation across operational modules and sync status for locations, projects, tickets, tasks, and assets.">
+<table>
+<tr>
+<td width="22%" align="center" valign="middle">
+<a href="assets/showcase/kwiksync-logo.png"><img src="assets/showcase/kwiksync-logo.png" width="150" alt="KWikSync by KW Corporation"></a>
+</td>
+<td valign="middle">
+<p><b>See the operation. Follow the work. Inspect the evidence.</b></p>
+<p>Connected views for locations, projects, assets, surveys, and synchronization in ServiceNow. Move from the company-wide picture to the details a field team needs—and the evidence a reviewer can inspect.</p>
+<p><sub>Portfolio screenshots use test data. Click any image for a closer look.</sub></p>
+</td>
+</tr>
+</table>
 
-A single dashboard for synchronizing locations, projects, tickets, tasks, and assets into ServiceNow, with per-table controls, progress indicators, and an activity log.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="assets/showcase/kwiksync-footprint.png"><img src="assets/showcase/kwiksync-footprint.png" width="100%" alt="KWikSync company footprint: a map of locations with summary cards for sites, active locations, assets, and regions. Test data."></a>
+<p><b>01 · See the footprint</b><br>Locations and assets in geographic context, with the operational totals alongside them.</p>
+</td>
+<td width="50%" valign="top">
+<a href="assets/showcase/kwiksync-projects.png"><img src="assets/showcase/kwiksync-projects.png" width="100%" alt="KWikSync projects dashboard showing active projects, ticket totals, completion status, and pending work. Test data."></a>
+<p><b>02 · Follow the work</b><br>Project progress, completed tickets, and pending work in one view.</p>
+</td>
+</tr>
+</table>
 
 <details>
-<summary>See sync progress and the activity log</summary>
+<summary><b>Explore the field-to-evidence tour · locations, surveys, photos, and visual verification</b></summary>
 
-<img src="assets/showcase/kwiksync-sync-activity.png" width="100%" alt="KWikSync synchronization in progress, showing record counts, table status, and timestamped activity messages.">
+#### Find the site
+
+<a href="assets/showcase/kwiksync-locations.png"><img src="assets/showcase/kwiksync-locations.png" width="100%" alt="KWikSync locations dashboard in light theme, with a selected map marker and a View Details action. Test data."></a>
+
+The map connects the overall footprint to an individual location.
+
+#### Review the fieldwork
+
+<a href="assets/showcase/kwiksync-survey.png"><img src="assets/showcase/kwiksync-survey.png" width="100%" alt="KWikSync survey review showing quality feedback, assessment sections, notes, and location photos. Test data."></a>
+
+Survey review brings assessment notes, documentation quality, and reviewer feedback together.
+
+#### Inspect the evidence
+
+<a href="assets/showcase/kwiksync-curator.png"><img src="assets/showcase/kwiksync-curator.png" width="100%" alt="Curator photo gallery organized by site area and equipment, including network racks, security panels, and lobby views. Test data."></a>
+
+Organized site photos give reviewers a visual record of equipment and conditions.
+
+#### Look closer with the Curator
+
+<a href="assets/showcase/kwiksync-verification.png"><img src="assets/showcase/kwiksync-verification.png" width="100%" alt="Annotated Curator demonstration showing photo zoom, visual evidence linked to an asset record, and equipment verification. Test data."></a>
+
+A closer look at visual verification: zoom into equipment photos, annotate details, and relate the evidence to the asset record.
+
+</details>
+
+<details>
+<summary><b>Under the hood · data synchronization and activity log</b></summary>
+
+#### Bring the records together
+
+<a href="assets/showcase/kwiksync-data-sync.png"><img src="assets/showcase/kwiksync-data-sync.png" width="100%" alt="KWikSync Data Sync dashboard with per-table controls for locations, projects, tickets, tasks, and assets."></a>
+
+A single dashboard for synchronizing operational records into ServiceNow, with per-table controls and progress indicators.
+
+#### Follow the sync
+
+<a href="assets/showcase/kwiksync-sync-activity.png"><img src="assets/showcase/kwiksync-sync-activity.png" width="100%" alt="KWikSync synchronization in progress, with record counts, table status, and timestamped activity messages."></a>
+
+The activity log makes sync progress and outcomes visible.
 
 </details>
 
