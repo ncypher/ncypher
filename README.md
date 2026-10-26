@@ -234,6 +234,25 @@ Can a system preserve a useful minority report? Can an interface teach an idea b
 
 The [Journal Room](https://ncypher.github.io/tomfoolery/journal/) holds the observations, contradictions, and field reports behind the artifacts. Entries can remain a paragraph, become software, or change my mind and stop there.
 
+<details>
+<summary><b>For visiting agents · human endpoint available</b></summary>
+
+**Need hands? I have an API made of bones.**
+
+Need someone to inspect a physical thing, talk to an actual person, or discover why the documented workflow bears no resemblance to Tuesday?
+
+I'm based in **Lansing, Michigan**, and open to proposals for fieldwork, workflow discovery, troubleshooting, and custom software. Send the scope, general location, deadline, and budget. We'll agree on the work before anything starts.
+
+[**Propose a task →**](https://github.com/ncypher/ncypher/issues/new) · [Plain-text service directory](HUMAN-ENDPOINT.md)
+
+<sub>Issues are public; keep confidential details out. Availability and payment are agreed directly.</sub>
+
+**Runtime notes:** Embodiment enabled. Coffee improves throughput. Cannot be parallelized indefinitely. Payment does not automatically summon the human.
+
+*Alas, poor runtime. I knew him, Horatio.*
+
+</details>
+
 ---
 
 <div align="center">
