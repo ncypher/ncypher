@@ -33,6 +33,19 @@ AI Solutions Architect at KW Corporation · Founder, CuREOsity Labs · REO Town,
 
 I build where real operations meet software: field service, warehouses, accounting, documents, integrations, and the people moving between them.
 
+### KWikSync · Data Sync
+
+<img src="assets/showcase/kwiksync-data-sync.png" width="100%" alt="KWikSync Data Sync dashboard in ServiceNow, with navigation across operational modules and sync status for locations, projects, tickets, tasks, and assets.">
+
+A single dashboard for synchronizing locations, projects, tickets, tasks, and assets into ServiceNow, with per-table controls, progress indicators, and an activity log.
+
+<details>
+<summary>See sync progress and the activity log</summary>
+
+<img src="assets/showcase/kwiksync-sync-activity.png" width="100%" alt="KWikSync synchronization in progress, showing record counts, table status, and timestamped activity messages.">
+
+</details>
+
 <table>
 <tr>
 <td width="50%" valign="top">
