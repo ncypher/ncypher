@@ -67,7 +67,9 @@ I build where real operations meet software: field service, warehouses, accounti
 </details>
 
 <details>
-<summary><b>Explore the field-to-evidence tour · locations, surveys, photos, and visual verification</b></summary>
+<summary><b>Facilities management &amp; site surveys · proven across 2,000+ site surveys and visits</b></summary>
+
+Built to support facilities management through structured site assessments, equipment documentation, photos, and human review. Proven across **2,000+ site surveys and visits**, this implementation focuses on **IT asset management—from infrastructure to edge devices**. The survey approach can be adapted to other facility types and assessment needs.
 
 #### Find the site
 
@@ -80,6 +82,11 @@ The map connects the overall footprint to an individual location.
 <a href="assets/showcase/kwiksync-survey.png"><img src="assets/showcase/kwiksync-survey.png" width="100%" alt="KWikSync survey review showing quality feedback, assessment sections, notes, and location photos. Test data."></a>
 
 Survey review brings assessment notes, documentation quality, and reviewer feedback together.
+
+</details>
+
+<details>
+<summary><b>The Curator · photo evidence and visual verification</b></summary>
 
 #### Inspect the evidence
 
