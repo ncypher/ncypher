@@ -48,6 +48,9 @@ I build where real operations meet software: field service, warehouses, accounti
 </tr>
 </table>
 
+<details>
+<summary><b>See the operation · company footprint and project progress</b></summary>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -60,6 +63,8 @@ I build where real operations meet software: field service, warehouses, accounti
 </td>
 </tr>
 </table>
+
+</details>
 
 <details>
 <summary><b>Explore the field-to-evidence tour · locations, surveys, photos, and visual verification</b></summary>
