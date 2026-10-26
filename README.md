@@ -22,7 +22,7 @@ AI Solutions Architect at KW Corporation · Founder, CuREOsity Labs · REO Town,
 
 ## Shipped
 
-- **KWikSync** — ServiceNow Store-certified, in production at Huntington National Bank, ~29,000 assets synced.
+- **KWikSync** — ServiceNow Store-certified, in production at a large U.S. bank, ~29,000 assets synced.
 - **Stitch**
 - **Q2Q middleware**
 - **R.E.P.O.** — Vision extraction + human review.
