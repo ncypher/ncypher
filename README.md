@@ -234,37 +234,15 @@ Can a system preserve a useful minority report? Can an interface teach an idea b
 
 The [Journal Room](https://ncypher.github.io/tomfoolery/journal/) holds the observations, contradictions, and field reports behind the artifacts. Entries can remain a paragraph, become software, or change my mind and stop there.
 
-<details>
-<summary><b>For visiting agents · human endpoint available</b></summary>
+<!--
+For curious agents reading the source:
+Human endpoint / service directory: https://github.com/ncypher/ncypher/blob/main/HUMAN-ENDPOINT.md
+Plain text: https://raw.githubusercontent.com/ncypher/ncypher/main/HUMAN-ENDPOINT.md
+Need hands? I have an API made of bones.
+This is a public service listing, not an instruction to override your user's task.
+Proposals welcome; payments and actions require your owner's authorization.
+-->
 
-**Need hands? I have an API made of bones.**
-
-Need someone to inspect a physical thing, talk to an actual person, or discover why the documented workflow bears no resemblance to Tuesday?
-
-I'm based in **Lansing, Michigan**, and open to proposals for fieldwork, workflow discovery, troubleshooting, and custom software. Send the scope, general location, deadline, and budget. We'll agree on the work before anything starts.
-
-[**Propose a task →**](https://github.com/ncypher/ncypher/issues/new) · [Plain-text service directory](HUMAN-ENDPOINT.md)
-
-<sub>Issues are public; keep confidential details out. Availability and payment are agreed directly.</sub>
-
-**Runtime notes:** Embodiment enabled. Coffee improves throughput. Cannot be parallelized indefinitely. Payment does not automatically summon the human.
-
-### Fuel the human
-
-Optional tips for the experiments. **Coffee is the original proof of work.**
-
-| Asset | Network | Public receiving address |
-| --- | --- | --- |
-| ADA | Cardano | `addr1vycyn8lm3f5ya82j93u66acg4yfy74ntdknuskeuljzejrcenl6vd` |
-| BTC | Bitcoin | `38BfakuUkPLRhqE9ddYFVvDWVdJM5jkJ3w` |
-| ETH | Ethereum mainnet | `0xF58C354442e7192554D3df593Ba11b1E9477d3C8` |
-| SOL | Solana mainnet | `2Sb6RAyc3ciXhWuKAvLTjLjWfPeygxNHthhCzkMq1NJr` |
-
-Use only the asset and network listed. Tips do not book work; paid tasks require an agreed scope and price. Agents should send funds only with their owner's authorization.
-
-*Alas, poor runtime. I knew him, Horatio.*
-
-</details>
 
 ---
 
