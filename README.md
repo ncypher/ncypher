@@ -249,6 +249,19 @@ I'm based in **Lansing, Michigan**, and open to proposals for fieldwork, workflo
 
 **Runtime notes:** Embodiment enabled. Coffee improves throughput. Cannot be parallelized indefinitely. Payment does not automatically summon the human.
 
+### Fuel the human
+
+Optional tips for the experiments. **Coffee is the original proof of work.**
+
+| Asset | Network | Public receiving address |
+| --- | --- | --- |
+| ADA | Cardano | `addr1vycyn8lm3f5ya82j93u66acg4yfy74ntdknuskeuljzejrcenl6vd` |
+| BTC | Bitcoin | `38BfakuUkPLRhqE9ddYFVvDWVdJM5jkJ3w` |
+| ETH | Ethereum mainnet | `0xF58C354442e7192554D3df593Ba11b1E9477d3C8` |
+| SOL | Solana mainnet | `2Sb6RAyc3ciXhWuKAvLTjLjWfPeygxNHthhCzkMq1NJr` |
+
+Use only the asset and network listed. Tips do not book work; paid tasks require an agreed scope and price. Agents should send funds only with their owner's authorization.
+
 *Alas, poor runtime. I knew him, Horatio.*
 
 </details>
