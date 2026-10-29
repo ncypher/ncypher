@@ -144,9 +144,16 @@ Python · JavaScript · ServiceNow · Quickbase · REST APIs · Docker
 
 [**Meet the person behind the systems →**](https://ncypher.github.io/tomfoolery/about.html) Archaeology, fieldwork, operations, and AI-assisted software: explore the career connecting them.
 
+---
+
 ## Start with something you can touch
 
-Software is one way to think out loud. These experiments let you move a control, disturb a system, and see what answers back.
+> *"…instead of calling it work, realise it is play."*
+> — Alan Watts
+
+Everything above is work in production. Everything below is how I keep up. When a new frontier model arrives, I give it a small, low-stakes world to build and watch what it can actually carry: a simulation, a 3D interface, a brain made of a few wires. These are toys, but the habit behind them is the same one I bring to business systems: learn exactly where the technology stands before trusting it with a warehouse, a field team, or a small business's books.
+
+Move a control, disturb a system, and see what answers back.
 
 <a href="https://ncypher.github.io/chasing.the.flush/"><img src="assets/showcase/chasing-the-flush.jpg" width="100%" alt="Chasing the Flush: sunlight through a Michigan spring woodland at the peak of morel season"></a>
 
