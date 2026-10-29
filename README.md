@@ -179,8 +179,14 @@ Software is one way to think out loud. These experiments let you move a control,
 <p><a href="https://ncypher.github.io/Opus.5.5_pixel.pet/"><b>Pixel Pet × 2</b></a> · <a href="https://ncypher.github.io/tomfoolery/pixel-pet.html">The original</a><br>Hatch a one-of-a-kind creature and raise it in a room on your real clock; how you care for it decides what it grows into.</p>
 </td>
 <td width="50%" valign="top">
-<a href="https://ncypher.github.io/tomfoolery/crown-and-cinder.html"><img src="assets/showcase/crown-and-cinder.jpg" width="100%" alt="Crown & Cinder: a grid of river-kingdom provinces with a winding blue river"></a>
-<p><a href="https://ncypher.github.io/tomfoolery/crown-and-cinder.html"><b>Crown & Cinder</b></a><br>A river kingdom of three orders per season: move troops, forecast battles, and keep a campaign alive for 48 seasons. GPT-5.6 Sol, refined with Codex.</p>
+<a href="https://crucible-dynamic.streamlit.app"><img src="assets/showcase/crucible-dynamic.jpg" width="100%" alt="Crucible: a low-poly 3D island with pine trees, boulders and a lone survivor by a campfire, beside sliders for weather, scarcity and danger"></a>
+<p><a href="https://crucible-dynamic.streamlit.app"><b>Crucible Dynamic</b></a><br>Wind a little island world, set its weather, scarcity, and danger, then let go and watch who the stranger on the shore becomes over seven days.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<a href="https://ncypher.github.io/wind-up-minds/"><img src="assets/showcase/wind-up-minds.jpg" width="100%" alt="Wind-Up Minds: Braitenberg carts circling two lights, a worm finding food beside its live neuron circuit, and a tiny network's learned boundary between orange and blue dots"></a>
+<p><a href="https://ncypher.github.io/wind-up-minds/"><b>Wind-Up Minds</b></a> · <a href="https://ncypher.github.io/wind-up-minds/braitenberg/">Vehicles</a> · <a href="https://ncypher.github.io/wind-up-minds/worm/">Worm</a> · <a href="https://ncypher.github.io/wind-up-minds/tiny-network/">Network</a><br>Three small brains you can poke: two-wire carts that flee, charge, or fall in love with light; a worm run by 21 real <i>C. elegans</i> neurons; and a from-scratch Python network learning live in your browser.</p>
 </td>
 </tr>
 </table>
