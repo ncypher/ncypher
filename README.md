@@ -161,6 +161,12 @@ Move a control, disturb a system, and see what answers back.
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+<a href="https://ncypher.github.io/attention-is-all-you-need/"><img src="assets/showcase/attention-is-all-you-need.jpg" width="100%" alt="Attention Is All You Need, playable edition: the paper's title block beside two live attention diagrams, one translating an English sentence into French and one showing English words reading each other"></a>
+<p><a href="https://ncypher.github.io/attention-is-all-you-need/"><b>Attention Is All You Need</b></a> · <a href="https://github.com/ncypher/attention-is-all-you-need">Source</a><br>The 2017 Transformer paper as a working model, written and built by Claude Fable 5.2. A 7,136-number Transformer translates toy English into French in your browser: watch its attention, bet on where it will look next, and remove its parts to see what breaks.</p>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://ncypher.github.io/8.5_Ball.Opus.5.5/"><img src="assets/showcase/8-5-ball-opus.jpg" width="100%" alt="Claude Opus 5.5's 8.5 Ball: a black 3D ball with a blue twenty-sided die answering a question, and its reasoning trace beside it"></a>
 <p><a href="https://ncypher.github.io/8.5_Ball.Opus.5.5/"><b>8.5 Ball × 2</b></a> · <a href="https://ncypher.github.io/8.5_Ball/">ChatGPT’s</a><br>A Magic 8 Ball for the age of AI, built by ChatGPT, then rebuilt by Claude Opus 5.5 as a 3D oracle that shows its reasoning and admits it can’t see the future.</p>
