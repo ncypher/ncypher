@@ -161,9 +161,13 @@ Move a control, disturb a system, and see what answers back.
 
 <table>
 <tr>
-<td colspan="2" valign="top">
-<a href="https://ncypher.github.io/attention-is-all-you-need/"><img src="assets/showcase/attention-is-all-you-need.jpg" width="100%" alt="Attention Is All You Need, playable edition: the paper's title block beside two live attention diagrams, one translating an English sentence into French and one showing English words reading each other"></a>
-<p><a href="https://ncypher.github.io/attention-is-all-you-need/"><b>Attention Is All You Need</b></a> · <a href="https://github.com/ncypher/attention-is-all-you-need">Source</a><br>The 2017 Transformer paper as a working model, written and built by Claude Fable 5.2. A 7,136-number Transformer translates toy English into French in your browser: watch its attention, bet on where it will look next, and remove its parts to see what breaks.</p>
+<td width="50%" valign="top">
+<a href="https://ncypher.github.io/attention-is-all-you-need/"><img src="assets/showcase/attention-is-all-you-need.jpg" width="100%" alt="Attention Is All You Need, playable edition: two live attention diagrams, one translating an English sentence into French and one showing English words reading each other"></a>
+<p><a href="https://ncypher.github.io/attention-is-all-you-need/"><b>Attention Is All You Need</b></a> · <a href="https://github.com/ncypher/attention-is-all-you-need">Source</a><br>A Playable Paper. The 2017 Transformer paper as a working model, written and built by Claude Fable 5.2: a 7,136-number Transformer translates in your browser while you watch its attention and remove its parts.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://ncypher.github.io/tomfoolery/turing-morphogenesis.html"><img src="assets/showcase/turing-morphogenesis.jpg" width="100%" alt="The Chemical Basis of Morphogenesis, playable edition: a round dish covered in dark spots beside a five-lobed ring of cells and a bar chart of growth rates"></a>
+<p><a href="https://ncypher.github.io/tomfoolery/turing-morphogenesis.html"><b>The Chemical Basis of Morphogenesis</b></a> · <a href="https://ncypher.github.io/tomfoolery/#playable-papers">The shelf</a><br>A Playable Paper. Turing’s 1952 dish of two chemicals, also by Fable 5.2: it grows spots, stripes, and nets on its own until you take away the difference in how fast they spread.</p>
 </td>
 </tr>
 <tr>
